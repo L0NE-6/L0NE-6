@@ -86,14 +86,12 @@ dream:       把每一个不起眼的小需求，做成顺手好用的小工具
 ## 🌱 我的仓库 · Pinned Work
 
 <div align="center">
-  <a href="https://github.com/L0NE-6/my-code-scripts">
-    <img src="https://img.shields.io/badge/my--code--scripts-private-scripts-repo-A78BFA?style=for-the-badge&logo=github" alt="my-code-scripts" />
-  </a>
+  <img src="https://img.shields.io/badge/%F0%9F%93%A6-my--code--scripts-A78BFA?style=for-the-badge" alt="my-code-scripts" />
 </div>
 
 <br />
 
-> 📦 **[my-code-scripts](https://github.com/L0NE-6/my-code-scripts)** — 个人代码与脚本库（私有），收纳日常用得到的小脚本与工具。`Python` · `PowerShell` · 自动化。
+> 📦 **my-code-scripts** — 个人代码与脚本库（私有），收纳日常用得到的小脚本与工具。`Python` · `PowerShell` · 自动化。
 
 ---
 
@@ -133,6 +131,7 @@ dream:       把每一个不起眼的小需求，做成顺手好用的小工具
 <div align="center">
   <sub>💜 若你也喜欢一个人单走一条路，不如顺手点个 <b>Follow</b> 🌙</sub>
 </div>
+
 
 
 
