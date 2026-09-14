@@ -20,7 +20,7 @@
 <!-- ===================== 信息徽章 ===================== -->
 <div align="center">
   <img src="https://img.shields.io/badge/Name-%E5%8D%95%E8%B5%B0%E4%B8%80%E4%B8%AA6-F472B6?style=flat-square&logo=github&logoColor=white" alt="name" />
-  <img src="https://img.shields.io/badge/AKA-L0NE-6-A78BFA?style=flat-square&logo=alphabet&logoColor=white" alt="aka" />
+  <img src="https://img.shields.io/badge/AKA-L0NE--6-A78BFA?style=flat-square&logo=alphabet&logoColor=white" alt="aka" />
   <img src="https://img.shields.io/badge/Location-China-FFC75F?style=flat-square&logo=googleearth&logoColor=white" alt="loc" />
   <img src="https://img.shields.io/badge/Focus-Scripts%20%2B%20Automation-A78BFA?style=flat-square&logo=target&logoColor=white" alt="focus" />
   <img src="https://img.shields.io/github/followers/L0NE-6?label=Followers&style=flat-square&color=A78BFA&labelColor=1A1B27" alt="followers" />
@@ -38,7 +38,7 @@ location:     🌏 China · UTC+08:00
 motto:       "一个人，一条路，单走一个6"
 identity:     工具收集者 · 自动化爱好者 · 独立开发者
 currently:   👉 维护「my-code-scripts」—— 个人代码与脚本库
-learning:    🚀 脚本自动化 · 代理与翻墙 · 效率工具
+learning:    🚀 脚本自动化 · 网络技术 · 效率工具
 dream:       把每一个不起眼的小需求，做成顺手好用的小工具
 ```
 
@@ -131,9 +131,3 @@ dream:       把每一个不起眼的小需求，做成顺手好用的小工具
 <div align="center">
   <sub>💜 若你也喜欢一个人单走一条路，不如顺手点个 <b>Follow</b> 🌙</sub>
 </div>
-
-
-
-
-
-
