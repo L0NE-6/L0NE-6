@@ -70,15 +70,7 @@ dream:       把每一个不起眼的小需求，做成顺手好用的小工具
 ## 📊 数据可视化 · GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=L0NE-6&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=tokyonight&title_color=A78BFA&icon_color=F472B6&text_color=c0caf5&bg_color=1a1b27" alt="stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.denvercoder1.workers.dev/?user=L0NE-6&theme=tokyonight&hide_border=true&background=1a1b27&stroke=1a1b27&ring=A78BFA&fire=F472B6&currStreakLabel=A78BFA&sideLabels=c0caf5&dates=c0caf5" alt="streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=L0NE-6&theme=tokyo-night&hide_border=true&bg_color=1a1b27&color=A78BFA&line=F472B6&point=FFC75F&area=true&area_color=A78BFA&custom_title=%F0%9F%8C%99%20%E4%B8%80%E5%B9%B4%E7%9A%84%20coding%20%E8%8A%82%E5%A5%8F%20%C2%B7%20Contribution%20Graph" alt="activity-graph" />
+  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/output/metrics.svg" alt="metrics" />
 </p>
 
 <div align="center">
@@ -95,7 +87,7 @@ dream:       把每一个不起眼的小需求，做成顺手好用的小工具
 
 <div align="center">
   <a href="https://github.com/L0NE-6/my-code-scripts">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=L0NE-6&repo=my-code-scripts&hide_border=true&theme=tokyonight&title_color=A78BFA&icon_color=F472B6&text_color=c0caf5&bg_color=1a1b27" alt="my-code-scripts" />
+    <img src="https://img.shields.io/badge/my--code--scripts-private-scripts-repo-A78BFA?style=for-the-badge&logo=github" alt="my-code-scripts" />
   </a>
 </div>
 
@@ -141,6 +133,7 @@ dream:       把每一个不起眼的小需求，做成顺手好用的小工具
 <div align="center">
   <sub>💜 若你也喜欢一个人单走一条路，不如顺手点个 <b>Follow</b> 🌙</sub>
 </div>
+
 
 
 
