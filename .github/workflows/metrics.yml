@@ -1,0 +1,33 @@
+name: Generate profile metrics
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: L0NE-6
+          filename: metrics.svg
+          committer_branch: output
+          base: header, activity, community, repositories, metadata
+          config_theme: dark
+          config_padding: 8%, 12%
+          plugin_followup: yes
+          plugin_followup_sections: repositories
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
