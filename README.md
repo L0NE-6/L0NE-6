@@ -5,7 +5,7 @@
 -->
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/hero.svg" alt="hero" width="100%"/>
+  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/hero2.svg" alt="hero" width="100%"/>
 </div>
 
 <div align="center">
