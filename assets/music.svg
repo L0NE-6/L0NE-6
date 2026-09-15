@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#241c3f" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#2f2450" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="vinyl" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a142e"/>
+      <stop offset="50%" stop-color="#2a2048"/>
+      <stop offset="100%" stop-color="#1a142e"/>
+    </linearGradient>
+    <linearGradient id="label" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F9A8D4"/>
+      <stop offset="50%" stop-color="#C4B5FD"/>
+      <stop offset="100%" stop-color="#A7F3D0"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C4B5FD"/>
+      <stop offset="100%" stop-color="#F9A8D4"/>
+    </linearGradient>
+    <filter id="mglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="2" y="2" width="896" height="256" rx="18" fill="url(#card)" stroke="#C4B5FD" stroke-opacity="0.35" stroke-width="1.5"/>
+  <g transform="translate(110,130)">
+    <circle r="74" fill="url(#vinyl)" stroke="#4c3f78" stroke-width="1"/>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="9s" repeatCount="indefinite"/>
+      <circle r="60" fill="none" stroke="#3a2f5c" stroke-width="0.8"/>
+      <circle r="50" fill="none" stroke="#3a2f5c" stroke-width="0.8"/>
+      <circle r="40" fill="none" stroke="#3a2f5c" stroke-width="0.8"/>
+      <circle r="30" fill="none" stroke="#3a2f5c" stroke-width="0.8"/>
+      <circle r="21" fill="url(#label)"/>
+      <circle r="4" fill="#241c3f"/>
+      <path d="M 21 0 A 21 21 0 0 1 0 21" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="1.2"/>
+    </g>
+    <circle r="74" fill="none" stroke="#E9D5FF" stroke-opacity="0.28" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(110,130)">
+    <circle r="88" fill="none" stroke="#C4B5FD" stroke-opacity="0.14" stroke-width="8">
+      <animate attributeName="r" values="82;96;82" dur="4.6s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.2;0.03;0.2" dur="4.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <text x="230" y="72" font-size="20" font-weight="600" fill="#F3E8FF" letter-spacing="1">NOW PLAYING</text>
+  <text x="230" y="106" font-size="15" fill="#C4B5FD">单曲循环 · 一个人也很浪漫</text>
+  <text x="230" y="130" font-size="12" fill="#8b7fb8" font-family="Consolas,monospace">L0NE-6 · SIDE A</text>
+  <g transform="translate(230,176)">
+    <rect x="0" y="0" width="560" height="7" rx="3.5" fill="#2a2048"/>
+    <rect x="0" y="0" width="360" height="7" rx="3.5" fill="url(#bar)" filter="url(#mglow)"/>
+    <rect x="0" y="0" width="360" height="7" rx="3.5" fill="url(#bar)"/>
+    <circle cx="360" cy="3.5" r="6.5" fill="#F9A8D4" filter="url(#mglow)">
+      <animate attributeName="cx" values="120;520;120" dur="18s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="30" font-size="11" fill="#8b7fb8" font-family="Consolas,monospace">01:24</text>
+    <text x="560" y="30" text-anchor="end" font-size="11" fill="#8b7fb8" font-family="Consolas,monospace">03:33</text>
+  </g>
+  <g transform="translate(660,196)">
+    <rect x="0" y="-42" width="6" height="42" rx="3" fill="url(#bar)"><animate attributeName="height" values="14;42;20;38;16" dur="1.1s" repeatCount="indefinite"/><animate attributeName="y" values="-14;-42;-20;-38;-16" dur="1.1s" repeatCount="indefinite"/></rect>
+    <rect x="14" y="-42" width="6" height="42" rx="3" fill="url(#bar)"><animate attributeName="height" values="34;16;40;18;30" dur="1.3s" repeatCount="indefinite"/><animate attributeName="y" values="-34;-16;-40;-18;-30" dur="1.3s" repeatCount="indefinite"/></rect>
+    <rect x="28" y="-42" width="6" height="42" rx="3" fill="url(#bar)"><animate attributeName="height" values="20;40;14;36;22" dur="0.9s" repeatCount="indefinite"/><animate attributeName="y" values="-20;-40;-14;-36;-22" dur="0.9s" repeatCount="indefinite"/></rect>
+    <rect x="42" y="-42" width="6" height="42" rx="3" fill="url(#bar)"><animate attributeName="height" values="38;18;34;16;40" dur="1.5s" repeatCount="indefinite"/><animate attributeName="y" values="-38;-18;-34;-16;-40" dur="1.5s" repeatCount="indefinite"/></rect>
+    <rect x="56" y="-42" width="6" height="42" rx="3" fill="url(#bar)"><animate attributeName="height" values="16;36;22;40;18" dur="1.05s" repeatCount="indefinite"/><animate attributeName="y" values="-16;-36;-22;-40;-18" dur="1.05s" repeatCount="indefinite"/></rect>
+    <rect x="70" y="-42" width="6" height="42" rx="3" fill="url(#bar)"><animate attributeName="height" values="40;20;38;14;34" dur="1.2s" repeatCount="indefinite"/><animate attributeName="y" values="-40;-20;-38;-14;-34" dur="1.2s" repeatCount="indefinite"/></rect>
+    <rect x="84" y="-42" width="6" height="42" rx="3" fill="url(#bar)"><animate attributeName="height" values="18;38;16;34;20" dur="1.4s" repeatCount="indefinite"/><animate attributeName="y" values="-18;-38;-16;-34;-20" dur="1.4s" repeatCount="indefinite"/></rect>
+    <rect x="98" y="-42" width="6" height="42" rx="3" fill="url(#bar)"><animate attributeName="height" values="36;14;40;20;36" dur="0.95s" repeatCount="indefinite"/><animate attributeName="y" values="-36;-14;-40;-20;-36" dur="0.95s" repeatCount="indefinite"/></rect>
+  </g>
+  <g transform="translate(840,80)">
+    <circle r="16" fill="none" stroke="#C4B5FD" stroke-opacity="0.5" stroke-width="1.5"/>
+    <path d="M -4 -7 L 8 0 L -4 7 Z" fill="#F9A8D4">
+      <animate attributeName="opacity" values="1;0.45;1" dur="2.2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
