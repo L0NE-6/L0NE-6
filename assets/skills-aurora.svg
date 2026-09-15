@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="270" viewBox="0 0 900 270" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="p1" x1="0%" x2="100%"><stop offset="0%" stop-color="#F9A8D4"/><stop offset="100%" stop-color="#C4B5FD"/></linearGradient>
+    <linearGradient id="p2" x1="0%" x2="100%"><stop offset="0%" stop-color="#C4B5FD"/><stop offset="100%" stop-color="#A7F3D0"/></linearGradient>
+    <linearGradient id="p3" x1="0%" x2="100%"><stop offset="0%" stop-color="#A7F3D0"/><stop offset="100%" stop-color="#BAE6FD"/></linearGradient>
+    <linearGradient id="p4" x1="0%" x2="100%"><stop offset="0%" stop-color="#BAE6FD"/><stop offset="100%" stop-color="#FBCFE8"/></linearGradient>
+    <filter id="sgl" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="4"/></filter>
+  </defs>
+  <rect x="2" y="2" width="896" height="266" rx="18" fill="#241c3f" fill-opacity="0.92" stroke="#C4B5FD" stroke-opacity="0.3" stroke-width="1.5"/>
+  <text x="40" y="52" font-size="18" font-weight="600" fill="#F3E8FF" letter-spacing="2">✦ 技能花园</text>
+  <text x="40" y="74" font-size="12" fill="#8b7fb8">SKILL GARDEN · 一点点长出来的能力</text>
+  <text x="40" y="118" font-size="14" fill="#E9D5FF">Python</text>
+  <rect x="200" y="105" width="560" height="15" rx="7.5" fill="#332a56"/>
+  <rect x="200" y="105" width="476" height="15" rx="7.5" fill="url(#p1)" filter="url(#sgl)" opacity="0.8"/>
+  <rect x="200" y="105" width="476" height="15" rx="7.5" fill="url(#p1)"/>
+  <text x="790" y="118" font-size="13" fill="#8b7fb8">85%</text>
+  <text x="40" y="160" font-size="14" fill="#E9D5FF">PowerShell</text>
+  <rect x="200" y="147" width="560" height="15" rx="7.5" fill="#332a56"/>
+  <rect x="200" y="147" width="448" height="15" rx="7.5" fill="url(#p2)" filter="url(#sgl)" opacity="0.8"/>
+  <rect x="200" y="147" width="448" height="15" rx="7.5" fill="url(#p2)"/>
+  <text x="790" y="160" font-size="13" fill="#8b7fb8">80%</text>
+  <text x="40" y="202" font-size="14" fill="#E9D5FF">Shell / Bash</text>
+  <rect x="200" y="189" width="560" height="15" rx="7.5" fill="#332a56"/>
+  <rect x="200" y="189" width="420" height="15" rx="7.5" fill="url(#p3)" filter="url(#sgl)" opacity="0.8"/>
+  <rect x="200" y="189" width="420" height="15" rx="7.5" fill="url(#p3)"/>
+  <text x="790" y="202" font-size="13" fill="#8b7fb8">75%</text>
+  <text x="40" y="244" font-size="14" fill="#E9D5FF">JavaScript</text>
+  <rect x="200" y="231" width="560" height="15" rx="7.5" fill="#332a56"/>
+  <rect x="200" y="231" width="392" height="15" rx="7.5" fill="url(#p4)" filter="url(#sgl)" opacity="0.8"/>
+  <rect x="200" y="231" width="392" height="15" rx="7.5" fill="url(#p4)"/>
+  <text x="790" y="244" font-size="13" fill="#8b7fb8">70%</text>
+</svg>
