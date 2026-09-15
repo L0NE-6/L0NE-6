@@ -1,24 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="30" viewBox="0 0 1000 30">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="34" viewBox="0 0 1000 34">
   <defs>
-    <linearGradient id="dl" x1="0%" x2="100%">
-      <stop offset="0%" stop-color="#F9A8D4" stop-opacity="0"/>
-      <stop offset="25%" stop-color="#F9A8D4" stop-opacity="0.75"/>
-      <stop offset="50%" stop-color="#C4B5FD" stop-opacity="0.95"/>
-      <stop offset="75%" stop-color="#A7F3D0" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#A7F3D0" stop-opacity="0"/>
+    <linearGradient id="dg" x1="0%" x2="100%">
+      <stop offset="0%" stop-color="#E52521" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#E52521" stop-opacity="0.85"/>
+      <stop offset="70%" stop-color="#2A5BD7" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#2A5BD7" stop-opacity="0"/>
     </linearGradient>
-    <filter id="dgl" x="-30%" y="-300%" width="160%" height="700%"><feGaussianBlur stdDeviation="3"/></filter>
   </defs>
-  <rect x="0" y="14" width="1000" height="2" fill="url(#dl)" filter="url(#dgl)"/>
-  <rect x="0" y="14.5" width="1000" height="1" fill="url(#dl)"/>
-  <circle cx="500" cy="15" r="3.5" fill="#FBCFE8" filter="url(#dgl)">
-    <animate attributeName="r" values="2.5;5;2.5" dur="3.2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;0.35;1" dur="3.2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="180" cy="15" r="1.8" fill="#C4B5FD" opacity="0.8">
-    <animate attributeName="opacity" values="0.8;0.15;0.8" dur="4s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="820" cy="15" r="1.8" fill="#A7F3D0" opacity="0.8">
-    <animate attributeName="opacity" values="0.15;0.8;0.15" dur="4s" repeatCount="indefinite"/>
-  </circle>
+  <rect x="0" y="15" width="1000" height="4" fill="url(#dg)"/>
+  <g transform="translate(360,6)">
+    <rect x="0" y="0" width="24" height="24" fill="#8A4B00"/><rect x="2" y="2" width="20" height="20" fill="#F8B800"/>
+    <text x="12" y="19" text-anchor="middle" font-size="16" font-weight="900" fill="#FFFFFF">?</text>
+  </g>
+  <g transform="translate(400,10)">
+    <ellipse cx="0" cy="0" rx="9" ry="12" fill="#FFD93B" stroke="#C99A00" stroke-width="3">
+      <animate attributeName="rx" values="9;2;9" dur="1.8s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+  <g transform="translate(440,9)">
+    <rect x="0" y="0" width="24" height="24" fill="#8A4B00"/><rect x="2" y="2" width="20" height="20" fill="#F8B800"/>
+    <text x="12" y="19" text-anchor="middle" font-size="16" font-weight="900" fill="#FFFFFF">?</text>
+  </g>
+  <g transform="translate(484,11)">
+    <rect x="0" y="0" width="20" height="10" fill="#E52521"/><rect x="2" y="2" width="16" height="8" fill="#FF7B00"/>
+  </g>
+  <g transform="translate(520,8)">
+    <rect x="0" y="0" width="26" height="26" fill="#00A800"/><rect x="3" y="0" width="6" height="26" fill="#58D854"/><rect x="0" y="2" width="26" height="5" fill="#00A800"/>
+  </g>
 </svg>
