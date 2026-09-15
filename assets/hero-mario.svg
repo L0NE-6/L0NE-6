@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="mSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5C94FC"/>
+      <stop offset="100%" stop-color="#8FC0FF"/>
+    </linearGradient>
+    <filter id="mShadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="2" flood-color="#1a3a8a" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="420" fill="url(#mSky)"/>
+
+  <!-- clouds -->
+  <g fill="#FFFFFF" opacity="0.98">
+    <g transform="translate(70,58)"><rect x="0" y="18" width="96" height="26"/><rect x="18" y="4" width="58" height="20"/><rect x="32" y="-6" width="30" height="14"/></g>
+    <g transform="translate(430,36)"><rect x="0" y="16" width="78" height="22"/><rect x="14" y="4" width="48" height="16"/><rect x="26" y="-4" width="24" height="12"/></g>
+    <g transform="translate(830,72)"><rect x="0" y="18" width="90" height="24"/><rect x="16" y="5" width="54" height="18"/><rect x="30" y="-5" width="28" height="13"/></g>
+  </g>
+
+  <!-- hills -->
+  <g>
+    <path d="M40 360 L40 320 L64 320 L64 300 L96 300 L96 280 L128 280 L128 300 L160 300 L160 320 L184 320 L184 360 Z" fill="#00A800"/>
+    <path d="M84 360 L84 336 L104 336 L104 320 L128 320 L128 336 L148 336 L148 360 Z" fill="#58D854"/>
+    <path d="M700 360 L700 330 L724 330 L724 312 L756 312 L756 330 L780 330 L780 360 Z" fill="#00A800"/>
+    <path d="M736 360 L736 342 L756 342 L756 330 L776 330 L776 360 Z" fill="#58D854"/>
+  </g>
+
+  <!-- ground -->
+  <rect x="0" y="360" width="1000" height="60" fill="#C84C0C"/>
+  <g stroke="#8A2E00" stroke-width="3">
+    <line x1="0" y1="360" x2="1000" y2="360"/>
+    <line x1="0" y1="390" x2="1000" y2="390"/>
+    <line x1="0" y1="420" x2="1000" y2="420"/>
+    <line x1="40" y1="360" x2="40" y2="390"/><line x1="120" y1="360" x2="120" y2="390"/><line x1="200" y1="360" x2="200" y2="390"/><line x1="280" y1="360" x2="280" y2="390"/><line x1="360" y1="360" x2="360" y2="390"/><line x1="440" y1="360" x2="440" y2="390"/><line x1="520" y1="360" x2="520" y2="390"/><line x1="600" y1="360" x2="600" y2="390"/><line x1="680" y1="360" x2="680" y2="390"/><line x1="760" y1="360" x2="760" y2="390"/><line x1="840" y1="360" x2="840" y2="390"/><line x1="920" y1="360" x2="920" y2="390"/>
+    <line x1="0" y1="390" x2="0" y2="420"/><line x1="80" y1="390" x2="80" y2="420"/><line x1="160" y1="390" x2="160" y2="420"/><line x1="240" y1="390" x2="240" y2="420"/><line x1="320" y1="390" x2="320" y2="420"/><line x1="400" y1="390" x2="400" y2="420"/><line x1="480" y1="390" x2="480" y2="420"/><line x1="560" y1="390" x2="560" y2="420"/><line x1="640" y1="390" x2="640" y2="420"/><line x1="720" y1="390" x2="720" y2="420"/><line x1="800" y1="390" x2="800" y2="420"/><line x1="880" y1="390" x2="880" y2="420"/><line x1="960" y1="390" x2="960" y2="420"/>
+  </g>
+
+  <!-- question blocks -->
+  <g filter="url(#mShadow)">
+    <g transform="translate(352,244)">
+      <rect width="52" height="52" fill="#8A4B00"/><rect x="3" y="3" width="46" height="46" fill="#FFA044"/>
+      <rect x="6" y="6" width="40" height="40" fill="#F8B800"/>
+      <text x="26" y="37" text-anchor="middle" font-size="30" font-weight="900" fill="#FFFFFF">?</text>
+      <rect x="7" y="7" width="4" height="4" fill="#FFF3C4"/><rect x="41" y="7" width="4" height="4" fill="#FFF3C4"/><rect x="7" y="41" width="4" height="4" fill="#FFF3C4"/><rect x="41" y="41" width="4" height="4" fill="#FFF3C4"/>
+      <animate attributeName="opacity" values="1;0.88;1" dur="1.6s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(428,244)">
+      <rect width="52" height="52" fill="#8A4B00"/><rect x="3" y="3" width="46" height="46" fill="#FFA044"/>
+      <rect x="6" y="6" width="40" height="40" fill="#F8B800"/>
+      <text x="26" y="37" text-anchor="middle" font-size="30" font-weight="900" fill="#FFFFFF">?</text>
+      <rect x="7" y="7" width="4" height="4" fill="#FFF3C4"/><rect x="41" y="7" width="4" height="4" fill="#FFF3C4"/><rect x="7" y="41" width="4" height="4" fill="#FFF3C4"/><rect x="41" y="41" width="4" height="4" fill="#FFF3C4"/>
+      <animate attributeName="opacity" values="0.88;1;0.88" dur="1.6s" begin="0.8s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(352,182)">
+      <rect width="52" height="52" fill="#8A4B00"/><rect x="3" y="3" width="46" height="46" fill="#B36B00"/>
+      <rect x="6" y="6" width="40" height="40" fill="#C97B00"/>
+      <rect x="6" y="22" width="40" height="4" fill="#8A4B00"/><rect x="22" y="6" width="4" height="40" fill="#8A4B00"/>
+      <rect x="9" y="9" width="4" height="4" fill="#E8A030"/><rect x="39" y="9" width="4" height="4" fill="#E8A030"/>
+    </g>
+  </g>
+
+  <!-- coins -->
+  <g>
+    <g transform="translate(470,262)">
+      <ellipse cx="0" cy="0" rx="13" ry="17" fill="#FFD93B" stroke="#C99A00" stroke-width="3">
+        <animate attributeName="rx" values="13;2.5;13" dur="2.2s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+    <g transform="translate(470,200)">
+      <ellipse cx="0" cy="0" rx="13" ry="17" fill="#FFD93B" stroke="#C99A00" stroke-width="3">
+        <animate attributeName="rx" values="2.5;13;2.5" dur="2.2s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+    <g transform="translate(300,150)">
+      <ellipse cx="0" cy="0" rx="13" ry="17" fill="#FFD93B" stroke="#C99A00" stroke-width="3">
+        <animate attributeName="cy" values="0;-14;0" dur="2.8s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+    <g transform="translate(700,140)">
+      <ellipse cx="0" cy="0" rx="13" ry="17" fill="#FFD93B" stroke="#C99A00" stroke-width="3">
+        <animate attributeName="cy" values="0;-16;0" dur="3.2s" begin="0.6s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+  </g>
+
+  <!-- pipe -->
+  <g>
+    <rect x="812" y="288" width="120" height="72" fill="#00A800"/>
+    <rect x="826" y="288" width="22" height="72" fill="#58D854"/>
+    <rect x="800" y="270" width="144" height="30" fill="#00A800"/>
+    <rect x="814" y="270" width="24" height="30" fill="#58D854"/>
+    <rect x="800" y="270" width="144" height="5" fill="#006000"/>
+  </g>
+
+  <!-- goomba -->
+  <g transform="translate(190,336)">
+    <animateTransform attributeName="transform" type="translate" values="190,336;238,336;190,336" dur="5s" repeatCount="indefinite"/>
+    <path d="M0 26 L0 14 L6 14 L6 6 L14 6 L14 0 L34 0 L34 6 L42 6 L42 14 L48 14 L48 26 Z" fill="#9C5A1E"/>
+    <path d="M8 26 L8 16 L16 16 L16 26 Z" fill="#F8D8B0"/>
+    <path d="M32 26 L32 16 L40 16 L40 26 Z" fill="#F8D8B0"/>
+    <rect x="10" y="10" width="10" height="8" fill="#FFFFFF"/><rect x="28" y="10" width="10" height="8" fill="#FFFFFF"/>
+    <rect x="14" y="12" width="4" height="6" fill="#2A2A2A"/><rect x="30" y="12" width="4" height="6" fill="#2A2A2A"/>
+    <rect x="8" y="26" width="14" height="8" fill="#5B3A1E"/><rect x="26" y="26" width="14" height="8" fill="#5B3A1E"/>
+  </g>
+
+  <!-- mario -->
+  <g transform="translate(556,278) scale(5.4)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -1.1;0 0" dur="1.4s" repeatCount="indefinite"/>
+      <rect x="3.6" y="0" width="10.4" height="3" fill="#E52521"/>
+      <rect x="2.6" y="2" width="12.4" height="2" fill="#E52521"/>
+      <rect x="3.6" y="4" width="10.4" height="5.6" fill="#FFC49B"/>
+      <rect x="4.6" y="5.6" width="1.7" height="2.3" fill="#2A2A2A"/>
+      <rect x="11" y="5.6" width="1.7" height="2.3" fill="#2A2A2A"/>
+      <rect x="4.6" y="8.6" width="8.6" height="1.5" fill="#5B3A1E"/>
+      <rect x="2.6" y="9.6" width="12.4" height="5.2" fill="#E52521"/>
+      <rect x="3.9" y="10.1" width="9.8" height="4.7" fill="#2A5BD7"/>
+      <rect x="5.4" y="11.2" width="1.7" height="1.7" fill="#FFD93B"/>
+      <rect x="10.4" y="11.2" width="1.7" height="1.7" fill="#FFD93B"/>
+      <rect x="0.4" y="10" width="2.3" height="4.6" fill="#E52521"/>
+      <rect x="14.9" y="10" width="2.3" height="4.6" fill="#E52521"/>
+      <rect x="0.4" y="13.6" width="2.3" height="2.2" fill="#FFC49B"/>
+      <rect x="14.9" y="13.6" width="2.3" height="2.2" fill="#FFC49B"/>
+      <rect x="3.4" y="14.8" width="4.6" height="3.1" fill="#2A5BD7"/>
+      <rect x="9.5" y="14.8" width="4.6" height="3.1" fill="#2A5BD7"/>
+      <rect x="2" y="17.3" width="6.2" height="1.9" fill="#5B3A1E"/>
+      <rect x="9.2" y="17.3" width="6.2" height="1.9" fill="#5B3A1E"/>
+    </g>
+  </g>
+
+  <!-- title -->
+  <g>
+    <text x="500" y="128" text-anchor="middle" font-size="62" font-weight="900" fill="#FFFFFF" stroke="#E52521" stroke-width="10" paint-order="stroke" letter-spacing="8" filter="url(#mShadow)">单走一个6</text>
+    <text x="500" y="170" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF" stroke="#2A5BD7" stroke-width="5" paint-order="stroke" letter-spacing="5" font-family="Consolas,Menlo,monospace">L0NE-6 &#183; WORLD 1-1</text>
+  </g>
+
+  <!-- hud -->
+  <g font-family="Consolas,Menlo,monospace" font-size="15" font-weight="700" fill="#FFFFFF">
+    <text x="28" y="36">MARIO</text>
+    <text x="28" y="58" fill="#FFD93B">&#9733; 000042</text>
+    <text x="972" y="36" text-anchor="end">WORLD</text>
+    <text x="972" y="58" text-anchor="end" fill="#FFD93B">1-1</text>
+    <text x="500" y="36" text-anchor="middle" fill="#FFD93B">&#9679; x 06</text>
+  </g>
+</svg>
