@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="380" viewBox="0 0 1000 380" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#04050e"/>
+      <stop offset="60%" stop-color="#0a0a1c"/>
+      <stop offset="100%" stop-color="#120a22"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00F5FF"/>
+      <stop offset="50%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#FF2D95"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5FF"><animate attributeName="stop-color" values="#00F5FF;#A78BFA;#FF2D95;#00F5FF" dur="8s" repeatCount="indefinite"/></stop>
+      <stop offset="50%" stop-color="#A78BFA"><animate attributeName="stop-color" values="#A78BFA;#FF2D95;#00F5FF;#A78BFA" dur="8s" repeatCount="indefinite"/></stop>
+      <stop offset="100%" stop-color="#FF2D95"><animate attributeName="stop-color" values="#FF2D95;#00F5FF;#A78BFA;#FF2D95" dur="8s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+    <clipPath id="sunclip"><rect x="410" y="170" width="180" height="90"/></clipPath>
+    <clipPath id="floor"><rect x="0" y="256" width="1000" height="124"/></clipPath>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="380" fill="url(#sky)"/>
+
+    <circle cx="500" cy="262" r="150" fill="#FF2D95" opacity="0.10" filter="url(#glow)"/>
+  <circle cx="500" cy="262" r="110" fill="#A78BFA" opacity="0.12" filter="url(#glow)"/><g clip-path="url(#sunclip)">
+    <circle cx="500" cy="262" r="88" fill="url(#sun)"/>
+    <rect x="410" y="212" width="180" height="3" fill="#0a0a1c"/>
+    <rect x="410" y="224" width="180" height="4" fill="#0a0a1c"/>
+    <rect x="410" y="238" width="180" height="6" fill="#0a0a1c"/>
+    <rect x="410" y="252" width="180" height="8" fill="#0a0a1c"/>
+  </g>
+  <circle cx="500" cy="262" r="88" fill="none" stroke="url(#neon)" stroke-width="2" opacity="0.75" filter="url(#softglow)"/>
+
+  <g clip-path="url(#floor)" stroke="#FF2D95" stroke-opacity="0.55" stroke-width="1.3">
+    <g opacity="0.9">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 24" dur="2s" repeatCount="indefinite"/>
+      <line x1="0" y1="258" x2="1000" y2="258"/>
+      <line x1="0" y1="282" x2="1000" y2="282"/>
+      <line x1="0" y1="310" x2="1000" y2="310"/>
+      <line x1="0" y1="344" x2="1000" y2="344"/>
+      <line x1="0" y1="382" x2="1000" y2="382"/>
+    </g>
+    <line x1="500" y1="258" x2="500" y2="380"/>
+    <line x1="500" y1="258" x2="430" y2="380"/>
+    <line x1="500" y1="258" x2="570" y2="380"/>
+    <line x1="500" y1="258" x2="350" y2="380"/>
+    <line x1="500" y1="258" x2="650" y2="380"/>
+    <line x1="500" y1="258" x2="250" y2="380"/>
+    <line x1="500" y1="258" x2="750" y2="380"/>
+    <line x1="500" y1="258" x2="120" y2="380"/>
+    <line x1="500" y1="258" x2="880" y2="380"/>
+    <line x1="500" y1="258" x2="-30" y2="380"/>
+    <line x1="500" y1="258" x2="1030" y2="380"/>
+  </g>
+  <line x1="0" y1="257" x2="1000" y2="257" stroke="url(#neon)" stroke-width="2.5" opacity="0.95" filter="url(#softglow)"/>
+
+  <g>
+    <text x="497" y="112" text-anchor="middle" font-size="72" font-weight="800" fill="#00F5FF" opacity="0.5" letter-spacing="14">单走一个6
+      <animate attributeName="x" values="497;493;497;501;497" dur="3.6s" repeatCount="indefinite"/>
+    </text>
+    <text x="503" y="112" text-anchor="middle" font-size="72" font-weight="800" fill="#FF2D95" opacity="0.5" letter-spacing="14">单走一个6
+      <animate attributeName="x" values="503;507;503;499;503" dur="3.6s" repeatCount="indefinite"/>
+    </text>
+    <text x="500" y="112" text-anchor="middle" font-size="72" font-weight="800" fill="url(#neon)" letter-spacing="14" filter="url(#glow)">单走一个6</text>
+  </g>
+
+  <text x="500" y="158" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="16" fill="#7dd3fc" letter-spacing="6" filter="url(#softglow)">L0NE-6 &#183; SOLO RUNNER &#183; BUILDER</text>
+
+  <line x1="300" y1="180" x2="700" y2="180" stroke="url(#neon)" stroke-width="1.5" opacity="0.55"/>
+  <circle cx="500" cy="180" r="3" fill="#00F5FF" filter="url(#softglow)">
+    <animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <g>
+    <circle cx="140" cy="300" r="2.5" fill="#00F5FF"><animate attributeName="cy" values="300;170;300" dur="9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="9s" repeatCount="indefinite"/></circle>
+    <circle cx="850" cy="330" r="2" fill="#FF2D95"><animate attributeName="cy" values="330;180;330" dur="11s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="11s" repeatCount="indefinite"/></circle>
+    <circle cx="230" cy="200" r="1.8" fill="#A78BFA"><animate attributeName="cy" values="200;90;200" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="8s" repeatCount="indefinite"/></circle>
+    <circle cx="770" cy="210" r="2.2" fill="#00F5FF"><animate attributeName="cy" values="210;100;210" dur="10s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.85;0" dur="10s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <rect x="0" width="1000" height="2.5" fill="url(#neon)" opacity="0.9">
+    <animate attributeName="y" values="-3;383" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <path d="M 22 62 L 22 22 L 62 22" fill="none" stroke="#00F5FF" stroke-width="3" opacity="0.95"/>
+  <path d="M 978 62 L 978 22 L 938 22" fill="none" stroke="#FF2D95" stroke-width="3" opacity="0.95"/>
+  <path d="M 22 318 L 22 358 L 62 358" fill="none" stroke="#A78BFA" stroke-width="3" opacity="0.95"/>
+  <path d="M 978 318 L 978 358 L 938 358" fill="none" stroke="#00F5FF" stroke-width="3" opacity="0.95"/>
+  <text x="26" y="374" font-family="Consolas,Menlo,monospace" font-size="11" fill="#5b6a95">SYS.VER 2.0</text>
+  <text x="974" y="374" text-anchor="end" font-family="Consolas,Menlo,monospace" font-size="11" fill="#5b6a95">&#9679; ONLINE</text>
+</svg>
