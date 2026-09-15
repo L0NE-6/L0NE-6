@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="170" viewBox="0 0 1000 170" font-family="Consolas,Menlo,monospace">
+  <defs>
+    <linearGradient id="fb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#141a30"/>
+      <stop offset="100%" stop-color="#070b14"/>
+    </linearGradient>
+    <linearGradient id="ft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5FF"/>
+      <stop offset="50%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#FF2D95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="170" fill="url(#fb)"/>
+  <rect y="167" width="1000" height="3" fill="url(#ft)"/>
+  <text x="500" y="72" text-anchor="middle" font-size="22" font-weight="700" fill="url(#ft)" letter-spacing="3">THANKS FOR VISITING</text>
+  <text x="500" y="106" text-anchor="middle" font-size="15" fill="#8b95c9">一个人 · 一条路 · 单走一个6</text>
+  <text x="500" y="138" text-anchor="middle" font-size="13" fill="#5b6a95" opacity="0.85">© L0NE-6</text>
+</svg>
