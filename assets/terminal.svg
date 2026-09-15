@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" font-family="Consolas,Menlo,monospace">
+  <defs>
+    <linearGradient id="tb" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#101528"/>
+      <stop offset="100%" stop-color="#1b2140"/>
+    </linearGradient>
+    <filter id="g2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="2" y="2" width="896" height="296" rx="14" fill="#0b1020" stroke="#A78BFA" stroke-opacity="0.5" stroke-width="2"/>
+  <rect x="2" y="2" width="896" height="42" rx="14" fill="url(#tb)"/>
+  <rect x="2" y="30" width="896" height="14" fill="url(#tb)"/>
+  <circle cx="30" cy="23" r="7" fill="#FF5F56"/>
+  <circle cx="54" cy="23" r="7" fill="#FFBD2E"/>
+  <circle cx="78" cy="23" r="7" fill="#27C93F"/>
+  <text x="450" y="28" text-anchor="middle" font-size="14" fill="#8b95c9">l0ne-6@github: ~/profile</text>
+  <text x="30" y="82" font-size="16" fill="#27C93F">$</text>
+  <text x="52" y="82" font-size="16" fill="#e2e8f0">whoami</text>
+  <text x="30" y="114" font-size="16" fill="#7dd3fc" filter="url(#g2)">单走一个6 · L0NE-6</text>
+  <text x="30" y="150" font-size="16" fill="#27C93F">$</text>
+  <text x="52" y="150" font-size="16" fill="#e2e8f0">cat stack.txt</text>
+  <text x="30" y="182" font-size="15" fill="#A78BFA">[ Python, PowerShell, Shell, JavaScript ]</text>
+  <text x="30" y="212" font-size="15" fill="#FF2D95">[ Git, Docker, Linux, Automation ]</text>
+  <text x="30" y="248" font-size="16" fill="#27C93F">$</text>
+  <rect x="52" y="236" width="11" height="17" fill="#00F5FF">
+    <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+  <text x="72" y="250" font-size="16" fill="#e2e8f0">build something cool_</text>
+</svg>
