@@ -11,12 +11,14 @@ def get(url, tries=5):
     last = None
     for i in range(tries):
         try:
-            req = urllib.request.Request(url, headers={
-                "Authorization": "Bearer " + TOKEN,
+            headers = {
                 "Accept": "application/vnd.github+json",
                 "User-Agent": "profile-assets-gen",
                 "Connection": "close",
-            })
+            }
+            if TOKEN:
+                headers["Authorization"] = "Bearer " + TOKEN
+            req = urllib.request.Request(url, headers=headers)
             with urllib.request.urlopen(req, timeout=45) as r:
                 raw = r.read()
             return json.loads(raw.decode("utf-8"))
@@ -27,7 +29,7 @@ def get(url, tries=5):
 
 PALETTE = ["#F9A8D4", "#C4B5FD", "#A7F3D0", "#BAE6FD", "#FDE68A", "#DDD6FE", "#FBCFE8", "#99F6E4"]
 
-repos = get(f"{API}/user/repos?per_page=100&affiliation=owner")
+repos = get(f"{API}/users/{OWNER}/repos?per_page=100&sort=updated")
 langs, star_total, repo_count = {}, 0, 0
 for repo in repos:
     if repo.get("fork"):
