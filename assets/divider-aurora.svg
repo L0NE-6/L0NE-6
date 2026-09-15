@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="30" viewBox="0 0 1000 30">
+  <defs>
+    <linearGradient id="dl" x1="0%" x2="100%">
+      <stop offset="0%" stop-color="#F9A8D4" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#F9A8D4" stop-opacity="0.75"/>
+      <stop offset="50%" stop-color="#C4B5FD" stop-opacity="0.95"/>
+      <stop offset="75%" stop-color="#A7F3D0" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#A7F3D0" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="dgl" x="-30%" y="-300%" width="160%" height="700%"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+  <rect x="0" y="14" width="1000" height="2" fill="url(#dl)" filter="url(#dgl)"/>
+  <rect x="0" y="14.5" width="1000" height="1" fill="url(#dl)"/>
+  <circle cx="500" cy="15" r="3.5" fill="#FBCFE8" filter="url(#dgl)">
+    <animate attributeName="r" values="2.5;5;2.5" dur="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.35;1" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="180" cy="15" r="1.8" fill="#C4B5FD" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.15;0.8" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="820" cy="15" r="1.8" fill="#A7F3D0" opacity="0.8">
+    <animate attributeName="opacity" values="0.15;0.8;0.15" dur="4s" repeatCount="indefinite"/>
+  </circle>
+</svg>
