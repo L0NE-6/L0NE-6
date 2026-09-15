@@ -78,8 +78,8 @@
     单走一个6
     <animate attributeName="opacity" values="0.9;1;0.9" dur="6.5s" repeatCount="indefinite"/>
   </text>
-  <text x="500" y="192" text-anchor="middle" font-size="14" fill="#E9D5FF" opacity="0.85" letter-spacing="6">一个人，一条路，也可以走得很美</text>
-  <text x="500" y="220" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="12" fill="#A99BD6" opacity="0.9" letter-spacing="4">L0NE-6 &#183; SOLO BUT WARM</text>
+  <text x="500" y="192" text-anchor="middle" font-size="14" fill="#FFF3FA" letter-spacing="6">一个人，一条路，也可以走得很美</text>
+  <text x="500" y="220" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="12" fill="#E4D9FF" letter-spacing="4">L0NE-6 &#183; SOLO BUT WARM</text>
 
   <g>
     <g opacity="0">
