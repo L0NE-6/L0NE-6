@@ -1,18 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="188" viewBox="0 0 900 188" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="142" viewBox="0 0 900 142" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
   <defs>
     <filter id="sgl" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="4"/></filter>
   </defs>
-  <rect x="2" y="2" width="896" height="184" rx="18" fill="#241c3f" fill-opacity="0.92" stroke="#C4B5FD" stroke-opacity="0.32" stroke-width="1.5"/>
+  <rect x="2" y="2" width="896" height="138" rx="18" fill="#241c3f" fill-opacity="0.92" stroke="#C4B5FD" stroke-opacity="0.32" stroke-width="1.5"/>
   <text x="40" y="52" font-size="18" font-weight="600" fill="#FFFFFF" letter-spacing="2">&#10022; 技能花园</text>
   <text x="40" y="76" font-size="12" fill="#C9BEE8">SKILL GARDEN &#183; 根据仓库语言自动生长</text>
   <text x="40" y="121" font-size="15" fill="#F5EDFF">Python</text>
   <rect x="210" y="108" width="560" height="15" rx="7.5" fill="#332a56"/>
-  <rect x="210" y="108" width="540" height="15" rx="7.5" fill="#F9A8D4" opacity="0.85" filter="url(#sgl)"/>
-  <rect x="210" y="108" width="540" height="15" rx="7.5" fill="#F9A8D4"/>
-  <text x="790" y="121" font-size="13" fill="#C9BEE8">96.6%</text>
-  <text x="40" y="167" font-size="15" fill="#F5EDFF">JavaScript</text>
-  <rect x="210" y="154" width="560" height="15" rx="7.5" fill="#332a56"/>
-  <rect x="210" y="154" width="19" height="15" rx="7.5" fill="#C4B5FD" opacity="0.85" filter="url(#sgl)"/>
-  <rect x="210" y="154" width="19" height="15" rx="7.5" fill="#C4B5FD"/>
-  <text x="790" y="167" font-size="13" fill="#C9BEE8">3.4%</text>
+  <rect x="210" y="108" width="560" height="15" rx="7.5" fill="#F9A8D4" opacity="0.85" filter="url(#sgl)"/>
+  <rect x="210" y="108" width="560" height="15" rx="7.5" fill="#F9A8D4"/>
+  <text x="790" y="121" font-size="13" fill="#C9BEE8">100.0%</text>
 </svg>
