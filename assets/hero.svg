@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="100%" stop-color="#141a30"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5FF"><animate attributeName="stop-color" values="#00F5FF;#A78BFA;#FF2D95;#00F5FF" dur="9s" repeatCount="indefinite"/></stop>
+      <stop offset="50%" stop-color="#A78BFA"><animate attributeName="stop-color" values="#A78BFA;#FF2D95;#00F5FF;#A78BFA" dur="9s" repeatCount="indefinite"/></stop>
+      <stop offset="100%" stop-color="#FF2D95"><animate attributeName="stop-color" values="#FF2D95;#00F5FF;#A78BFA;#FF2D95" dur="9s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#A78BFA" stroke-opacity="0.10" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1000" height="340" fill="url(#bg)"/>
+  <rect width="1000" height="340" fill="url(#grid)"/>
+  <rect x="0" width="1000" height="3" fill="url(#neon)" opacity="0.85">
+    <animate attributeName="y" values="-3;343" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <path d="M 26 66 L 26 26 L 66 26" fill="none" stroke="#00F5FF" stroke-width="3" opacity="0.9"/>
+  <path d="M 974 66 L 974 26 L 934 26" fill="none" stroke="#FF2D95" stroke-width="3" opacity="0.9"/>
+  <path d="M 26 274 L 26 314 L 66 314" fill="none" stroke="#A78BFA" stroke-width="3" opacity="0.9"/>
+  <path d="M 974 274 L 974 314 L 934 314" fill="none" stroke="#00F5FF" stroke-width="3" opacity="0.9"/>
+  <text x="500" y="150" text-anchor="middle" font-size="80" font-weight="800" fill="url(#neon)" filter="url(#glow)" letter-spacing="10">单走一个6</text>
+  <text x="500" y="206" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="19" fill="#7dd3fc" letter-spacing="4">&lt;/&gt; L0NE-6 · SOLO RUNNER · BUILDER</text>
+  <circle cx="404" cy="252" r="4" fill="#00F5FF"><animate attributeName="opacity" values="1;0.15;1" dur="1.6s" repeatCount="indefinite"/></circle>
+  <circle cx="500" cy="252" r="4" fill="#A78BFA"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.6s" repeatCount="indefinite"/></circle>
+  <circle cx="596" cy="252" r="4" fill="#FF2D95"><animate attributeName="opacity" values="1;0.15;1" dur="1.6s" repeatCount="indefinite"/></circle>
+</svg>
