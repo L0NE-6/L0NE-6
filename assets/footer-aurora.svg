@@ -1,31 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="180" viewBox="0 0 1000 180" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="220" viewBox="0 0 1000 220" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
   <defs>
-    <linearGradient id="fs" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#2b2049"/>
-      <stop offset="100%" stop-color="#15102a"/>
+    <linearGradient id="fsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5C94FC"/><stop offset="100%" stop-color="#8FC0FF"/>
     </linearGradient>
-    <linearGradient id="ft" x1="0%" x2="100%">
-      <stop offset="0%" stop-color="#F9A8D4"/>
-      <stop offset="50%" stop-color="#C4B5FD"/>
-      <stop offset="100%" stop-color="#A7F3D0"/>
-    </linearGradient>
-    <filter id="fgl" x="-30%" y="-200%" width="160%" height="500%"><feGaussianBlur stdDeviation="1.6"/></filter>
-    <radialGradient id="fhalo">
-      <stop offset="0%" stop-color="#C4B5FD" stop-opacity="0.28"/>
-      <stop offset="100%" stop-color="#C4B5FD" stop-opacity="0"/>
-    </radialGradient>
   </defs>
-  <rect width="1000" height="180" fill="url(#fs)"/>
-  <ellipse cx="500" cy="60" rx="260" ry="52" fill="url(#fhalo)"/>
-  <text x="500" y="66" text-anchor="middle" font-size="19" font-weight="600" fill="url(#ft)" letter-spacing="3" opacity="0.55" filter="url(#fgl)">谢谢你路过我的小世界</text>
-  <text x="500" y="66" text-anchor="middle" font-size="19" font-weight="600" fill="url(#ft)" letter-spacing="3">谢谢你路过我的小世界</text>
-  <text x="500" y="98" text-anchor="middle" font-size="13" fill="#A99BD6" letter-spacing="2">一个人 · 一条路 · 单走一个6</text>
-  <text x="500" y="128" text-anchor="middle" font-size="11" fill="#6f6394" font-family="Consolas,monospace" letter-spacing="2">© L0NE-6 · MADE WITH &#10084;</text>
-  <g fill="#FFF7ED">
-    <circle cx="120" cy="40" r="1.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.6s" repeatCount="indefinite"/></circle>
-    <circle cx="300" cy="120" r="1.2"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.4s" begin="0.6s" repeatCount="indefinite"/></circle>
-    <circle cx="700" cy="46" r="1.4"><animate attributeName="opacity" values="0.25;1;0.25" dur="4s" begin="1.2s" repeatCount="indefinite"/></circle>
-    <circle cx="880" cy="126" r="1.3"><animate attributeName="opacity" values="1;0.2;1" dur="4.8s" begin="0.4s" repeatCount="indefinite"/></circle>
+  <rect width="1000" height="220" fill="url(#fsky)"/>
+  <g fill="#FFFFFF" opacity="0.95">
+    <g transform="translate(80,26)"><rect x="0" y="12" width="76" height="20"/><rect x="14" y="2" width="46" height="14"/></g>
+    <g transform="translate(830,44)"><rect x="0" y="12" width="70" height="18"/><rect x="12" y="2" width="42" height="12"/></g>
   </g>
-  <rect y="177" width="1000" height="3" fill="url(#ft)" opacity="0.85"/>
+  <!-- flagpole -->
+  <g>
+    <rect x="856" y="34" width="7" height="140" fill="#00A800" stroke="#006000" stroke-width="2"/>
+    <circle cx="859" cy="30" r="11" fill="#00A800" stroke="#006000" stroke-width="2"/>
+    <path d="M863 44 L916 58 L863 72 Z" fill="#00A800">
+      <animate attributeName="d" values="M863 44 L916 58 L863 72 Z;M863 44 L906 58 L863 72 Z;M863 44 L916 58 L863 72 Z" dur="2.4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <rect x="0" y="174" width="1000" height="46" fill="#C84C0C"/>
+  <g stroke="#8A2E00" stroke-width="3">
+    <line x1="0" y1="174" x2="1000" y2="174"/>
+    <line x1="0" y1="200" x2="1000" y2="200"/>
+    <line x1="60" y1="174" x2="60" y2="220"/><line x1="180" y1="174" x2="180" y2="220"/><line x1="300" y1="174" x2="300" y2="220"/><line x1="420" y1="174" x2="420" y2="220"/><line x1="540" y1="174" x2="540" y2="220"/><line x1="660" y1="174" x2="660" y2="220"/><line x1="780" y1="174" x2="780" y2="220"/><line x1="900" y1="174" x2="900" y2="220"/>
+  </g>
+  <!-- castle -->
+  <g transform="translate(320,84)">
+    <rect x="0" y="40" width="150" height="90" fill="#C84C0C"/>
+    <rect x="0" y="40" width="150" height="8" fill="#8A2E00"/>
+    <rect x="20" y="10" width="26" height="34" fill="#C84C0C"/><rect x="62" y="10" width="26" height="34" fill="#C84C0C"/><rect x="104" y="10" width="26" height="34" fill="#C84C0C"/>
+    <rect x="20" y="10" width="26" height="7" fill="#8A2E00"/><rect x="62" y="10" width="26" height="7" fill="#8A2E00"/><rect x="104" y="10" width="26" height="7" fill="#8A2E00"/>
+    <rect x="56" y="86" width="38" height="44" fill="#2A2A2A"/>
+    <path d="M56 86 A19 19 0 0 1 94 86 Z" fill="#2A2A2A"/>
+    <rect x="12" y="66" width="14" height="18" fill="#2A2A2A"/><rect x="124" y="66" width="14" height="18" fill="#2A2A2A"/>
+  </g>
+  <!-- mario walking in -->
+  <g transform="translate(196,132) scale(1.7)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -1.2;0 0" dur="1.2s" repeatCount="indefinite"/>
+      <rect x="3.6" y="0" width="10.4" height="3" fill="#E52521"/>
+      <rect x="2.6" y="2" width="12.4" height="2" fill="#E52521"/>
+      <rect x="3.6" y="4" width="10.4" height="5.6" fill="#FFC49B"/>
+      <rect x="4.6" y="5.6" width="1.7" height="2.3" fill="#2A2A2A"/>
+      <rect x="11" y="5.6" width="1.7" height="2.3" fill="#2A2A2A"/>
+      <rect x="4.6" y="8.6" width="8.6" height="1.5" fill="#5B3A1E"/>
+      <rect x="2.6" y="9.6" width="12.4" height="5.2" fill="#E52521"/>
+      <rect x="3.9" y="10.1" width="9.8" height="4.7" fill="#2A5BD7"/>
+      <rect x="5.4" y="11.2" width="1.7" height="1.7" fill="#FFD93B"/>
+      <rect x="10.4" y="11.2" width="1.7" height="1.7" fill="#FFD93B"/>
+      <rect x="0.4" y="10" width="2.3" height="4.6" fill="#E52521"/>
+      <rect x="14.9" y="10" width="2.3" height="4.6" fill="#E52521"/>
+      <rect x="3.4" y="14.8" width="4.6" height="3.1" fill="#2A5BD7"/>
+      <rect x="9.5" y="14.8" width="4.6" height="3.1" fill="#2A5BD7"/>
+      <rect x="2" y="17.3" width="6.2" height="1.9" fill="#5B3A1E"/>
+      <rect x="9.2" y="17.3" width="6.2" height="1.9" fill="#5B3A1E"/>
+    </g>
+  </g>
+  <text x="500" y="122" text-anchor="middle" font-size="20" font-weight="900" fill="#FFFFFF" stroke="#E52521" stroke-width="5" paint-order="stroke" letter-spacing="3">THANK YOU MARIO!</text>
+  <text x="500" y="146" text-anchor="middle" font-size="13" font-weight="700" fill="#FFF3C4" letter-spacing="2">但公主在下一座城堡 &#183; 谢谢你来过我的小世界</text>
+  <text x="500" y="192" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="2">&#169; L0NE-6 &#183; 单走一个6 &#183; WORLD 1-1</text>
 </svg>
