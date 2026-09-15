@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""根据仓库语言自动生成技能花园 + 生成中文唯美痕迹卡片"""
-import json, os, time, urllib.request, urllib.error, datetime
+"""马里奥主题：技能花园(蘑菇) + 痕迹卡片(金币计分板)，数据自动从仓库读取"""
+import json, os, time, urllib.request, datetime
 
 TOKEN = os.environ.get("GH_TOKEN", "")
 OWNER = os.environ.get("GH_OWNER", "L0NE-6")
@@ -27,7 +27,8 @@ def get(url, tries=5):
             time.sleep(1.5 * (i + 1))
     raise last
 
-PALETTE = ["#F9A8D4", "#C4B5FD", "#A7F3D0", "#BAE6FD", "#FDE68A", "#DDD6FE", "#FBCFE8", "#99F6E4"]
+# 马里奥配色
+PALETTE = ["#E52521", "#F8B800", "#00A800", "#2A5BD7", "#FF7B00", "#E52521", "#58D854", "#00A800"]
 
 repos = get(f"{API}/users/{OWNER}/repos?per_page=100&sort=updated")
 langs, star_total, repo_count = {}, 0, 0
@@ -48,65 +49,90 @@ top = sorted(langs.items(), key=lambda x: -x[1])[:6]
 if not top:
     top = [("Python", 1)]
 
-H = 96 + len(top) * 46
+# ================= 技能花园（蘑菇生长条）=================
+H = 108 + len(top) * 48
 rows = []
 for i, (name, size) in enumerate(top):
     pct = size / total * 100
-    w = max(18, int(560 * pct / 100))
-    y = 108 + i * 46
+    w = max(20, int(540 * pct / 100))
+    y = 116 + i * 48
     c = PALETTE[i % len(PALETTE)]
-    rows.append(f'''  <text x="40" y="{y + 13}" font-size="15" fill="#F5EDFF">{name}</text>
-  <rect x="210" y="{y}" width="560" height="15" rx="7.5" fill="#332a56"/>
-  <rect x="210" y="{y}" width="{w}" height="15" rx="7.5" fill="{c}" opacity="0.85" filter="url(#sgl)"/>
-  <rect x="210" y="{y}" width="{w}" height="15" rx="7.5" fill="{c}"/>
-  <text x="790" y="{y + 13}" font-size="13" fill="#C9BEE8">{pct:.1f}%</text>''')
+    # 蘑菇图标（出现的最小方块拼的）
+    mx = 44
+    rows.append(f'''  <g transform="translate({mx},{y - 4})">
+    <rect x="4" y="0" width="14" height="4" fill="{c}"/>
+    <rect x="0" y="4" width="22" height="8" fill="{c}"/>
+    <rect x="4" y="12" width="14" height="5" fill="#FFF3C4"/>
+    <rect x="7" y="13.5" width="3" height="3" fill="#2A2A2A"/>
+    <rect x="12" y="13.5" width="3" height="3" fill="#2A2A2A"/>
+  </g>
+  <text x="80" y="{y + 13}" font-size="15" font-weight="700" fill="#FFFFFF">{name}</text>
+  <rect x="220" y="{y}" width="540" height="16" rx="3" fill="#3A2A1A" stroke="#8A4B00" stroke-width="1.5"/>
+  <rect x="222" y="{y + 2}" width="{w}" height="12" rx="2" fill="{c}"/>
+  <rect x="222" y="{y + 2}" width="{w}" height="5" rx="2" fill="#FFFFFF" opacity="0.28"/>
+  <text x="782" y="{y + 13}" font-size="13" font-weight="700" fill="#FFD93B">{pct:.1f}%</text>''')
 
 skills_svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="{H}" viewBox="0 0 900 {H}" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
   <defs>
-    <filter id="sgl" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="4"/></filter>
+    <linearGradient id="mp" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5C94FC"/><stop offset="100%" stop-color="#8FC0FF"/>
+    </linearGradient>
   </defs>
-  <rect x="2" y="2" width="896" height="{H - 4}" rx="18" fill="#241c3f" fill-opacity="0.92" stroke="#C4B5FD" stroke-opacity="0.32" stroke-width="1.5"/>
-  <text x="40" y="52" font-size="18" font-weight="600" fill="#FFFFFF" letter-spacing="2">&#10022; 技能花园</text>
-  <text x="40" y="76" font-size="12" fill="#C9BEE8">SKILL GARDEN &#183; 根据仓库语言自动生长</text>
+  <rect x="2" y="2" width="896" height="{H - 4}" rx="6" fill="url(#mp)" stroke="#2A5BD7" stroke-width="3"/>
+  <g transform="translate(28,26)">
+    <rect x="0" y="0" width="34" height="34" fill="#8A4B00"/><rect x="3" y="3" width="28" height="28" fill="#F8B800"/>
+    <text x="17" y="26" text-anchor="middle" font-size="22" font-weight="900" fill="#FFFFFF">?</text>
+  </g>
+  <text x="76" y="42" font-size="19" font-weight="900" fill="#FFFFFF" letter-spacing="2">技能花园 · POWER-UPS</text>
+  <text x="76" y="62" font-size="12" font-weight="700" fill="#FFF3C4" letter-spacing="1">吃下蘑菇，能力就会长大 &#183; 根据仓库语言自动生长</text>
+  <rect x="28" y="78" width="844" height="3" fill="#2A5BD7" opacity="0.5"/>
 {chr(10).join(rows)}
 </svg>
 '''
 
+# ================= 痕迹卡片（金币计分板）=================
 user = get(f"{API}/users/{OWNER}")
 created = datetime.datetime.strptime(user["created_at"][:10], "%Y-%m-%d")
 days = (datetime.datetime.utcnow() - created).days
 
-traces_svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="270" viewBox="0 0 900 270" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+def coin_card(cx, cy, value, label):
+    return f'''  <g transform="translate({cx},{cy})">
+    <ellipse cx="0" cy="0" rx="30" ry="38" fill="#FFD93B" stroke="#C99A00" stroke-width="5">
+      <animate attributeName="rx" values="30;6;30" dur="3.4s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="0" cy="0" rx="16" ry="22" fill="none" stroke="#C99A00" stroke-width="4" opacity="0.7">
+      <animate attributeName="rx" values="16;3;16" dur="3.4s" repeatCount="indefinite"/>
+    </ellipse>
+    <text x="0" y="12" text-anchor="middle" font-size="26" font-weight="900" fill="#FFFFFF" stroke="#C99A00" stroke-width="1.5" paint-order="stroke">{value}</text>
+    <text x="0" y="62" text-anchor="middle" font-size="13" font-weight="700" fill="#FFF3C4">{label}</text>
+  </g>'''
+
+traces_svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
   <defs>
-    <linearGradient id="tg" x1="0%" x2="100%"><stop offset="0%" stop-color="#F9A8D4"/><stop offset="50%" stop-color="#C4B5FD"/><stop offset="100%" stop-color="#A7F3D0"/></linearGradient>
-    <filter id="tgl" x="-30%" y="-200%" width="160%" height="500%"><feGaussianBlur stdDeviation="4"/></filter>
-    <radialGradient id="thalo"><stop offset="0%" stop-color="#C4B5FD" stop-opacity="0.22"/><stop offset="100%" stop-color="#C4B5FD" stop-opacity="0"/></radialGradient>
+    <linearGradient id="gr" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5C94FC"/><stop offset="100%" stop-color="#B8DBFF"/>
+    </linearGradient>
+    <linearGradient id="fl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#E52521"/>
+    </linearGradient>
   </defs>
-  <rect x="2" y="2" width="896" height="266" rx="18" fill="#241c3f" fill-opacity="0.92" stroke="#C4B5FD" stroke-opacity="0.32" stroke-width="1.5"/>
-  <ellipse cx="450" cy="60" rx="300" ry="70" fill="url(#thalo)"/>
-  <text x="450" y="58" text-anchor="middle" font-size="19" font-weight="600" fill="url(#tg)" letter-spacing="3" filter="url(#tgl)" opacity="0.5">&#10022; 走过的痕迹</text>
-  <text x="450" y="58" text-anchor="middle" font-size="19" font-weight="600" fill="url(#tg)" letter-spacing="3">&#10022; 走过的痕迹</text>
-  <text x="450" y="82" text-anchor="middle" font-size="12" fill="#C9BEE8">每一天都算数 &#183; EVERY STEP COUNTS</text>
-  <g transform="translate(150,168)">
-    <text text-anchor="middle" font-size="30" font-weight="700" fill="#F9A8D4">{days}</text>
-    <text y="26" text-anchor="middle" font-size="13" fill="#C9BEE8">天前遇见 GitHub</text>
+  <rect x="2" y="2" width="896" height="296" rx="6" fill="url(#gr)" stroke="#2A5BD7" stroke-width="3"/>
+  <g fill="#FFFFFF" opacity="0.95">
+    <g transform="translate(60,26)"><rect x="0" y="10" width="70" height="18"/><rect x="12" y="2" width="42" height="12"/></g>
+    <g transform="translate(760,32)"><rect x="0" y="10" width="80" height="18"/><rect x="14" y="2" width="48" height="12"/></g>
   </g>
-  <g transform="translate(350,168)">
-    <text text-anchor="middle" font-size="30" font-weight="700" fill="#C4B5FD">{repo_count}</text>
-    <text y="26" text-anchor="middle" font-size="13" fill="#C9BEE8">个小仓库</text>
+  <text x="450" y="52" text-anchor="middle" font-size="20" font-weight="900" fill="#FFFFFF" stroke="#E52521" stroke-width="5" paint-order="stroke" letter-spacing="3">&#9733; 走过的痕迹 &#9733;</text>
+  <text x="450" y="76" text-anchor="middle" font-size="12" font-weight="700" fill="#FFF3C4" letter-spacing="1">每一枚金币，都是认真走过的一天</text>
+{coin_card(146, 168, days, "天前开始冒险")}
+{coin_card(348, 168, repo_count, "个关卡（仓库）")}
+{coin_card(552, 168, star_total, "颗星星")}
+{coin_card(754, 168, user.get("followers", 0), "位队友")}
+  <g transform="translate(370,238)">
+    <rect x="0" y="0" width="160" height="38" rx="4" fill="#8A4B00"/>
+    <rect x="5" y="5" width="150" height="28" rx="2" fill="#F8B800"/>
+    <text x="80" y="26" text-anchor="middle" font-size="16" font-weight="900" fill="#FFFFFF">&#9654; START</text>
   </g>
-  <g transform="translate(550,168)">
-    <text text-anchor="middle" font-size="30" font-weight="700" fill="#A7F3D0">{star_total}</text>
-    <text y="26" text-anchor="middle" font-size="13" fill="#C9BEE8">颗星星</text>
-  </g>
-  <g transform="translate(750,168)">
-    <text text-anchor="middle" font-size="30" font-weight="700" fill="#BAE6FD">{user.get("followers", 0)}</text>
-    <text y="26" text-anchor="middle" font-size="13" fill="#C9BEE8">位同行者</text>
-  </g>
-  <line x1="230" y1="120" x2="230" y2="200" stroke="#C4B5FD" stroke-opacity="0.18"/>
-  <line x1="430" y1="120" x2="430" y2="200" stroke="#C4B5FD" stroke-opacity="0.18"/>
-  <line x1="630" y1="120" x2="630" y2="200" stroke="#C4B5FD" stroke-opacity="0.18"/>
-  <text x="450" y="246" text-anchor="middle" font-size="12" fill="#A99BD6">&#127769; 一个人单走一条路，也在慢慢发光</text>
+  <text x="450" y="292" text-anchor="middle" font-size="11" font-weight="700" fill="#2A5BD7">一个人单走一条路，也能通关</text>
 </svg>
 '''
 
@@ -115,6 +141,6 @@ with open("assets/skills-auto.svg", "w", encoding="utf-8") as f:
     f.write(skills_svg)
 with open("assets/traces.svg", "w", encoding="utf-8") as f:
     f.write(traces_svg)
-print("generated skills-auto.svg + traces.svg")
+print("generated mario skills-auto.svg + traces.svg")
 print("languages:", [(n, round(s / total * 100, 1)) for n, s in top])
 print("days:", days, "repos:", repo_count, "stars:", star_total)
