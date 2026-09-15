@@ -1,86 +1,91 @@
 <!--
   GitHub Profile README for @L0NE-6
-  主题：赛博霓虹 CYBER NEON · 自定义 SVG
-  配色：电光青 #00F5FF · 星云紫 #A78BFA · 荧光粉 #FF2D95
+  主题：唯美极光 AURORA · 温柔而有趣
+  配色：樱粉 #F9A8D4 · 雾紫 #C4B5FD · 薄荷 #A7F3D0 · 天青 #BAE6FD
 -->
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/hero2.svg" alt="hero" width="100%"/>
+  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/hero-aurora.svg" alt="aurora" width="100%"/>
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/divider.svg" alt="divider" width="100%"/>
-</div>
-
-<div align="center">
-  <a href="https://github.com/L0NE-6"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=800&color=00F5FF&center=true&vCenter=true&width=700&lines=%3E+init+identity...%E5%8D%95%E8%B5%B0%E4%B8%80%E4%B8%AA6;%3E+load+alias...L0NE-6;%3E+mode%3A+solo+runner+%E2%9A%A1;%3E+status%3A+building+something+cool" alt="typing"/></a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3800&pause=900&color=C4B5FD&center=true&vCenter=true&width=680&lines=%E6%99%9A%E5%AE%89%EF%BC%8C%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E5%B0%8F%E4%B8%96%E7%95%8C+%E2%9C%A8;%E6%88%91%E5%8F%AB%E5%8D%95%E8%B5%B0%E4%B8%80%E4%B8%AA6+%F0%9F%8C%99;%E4%B8%80%E4%B8%AA%E4%BA%BA%EF%BC%8C%E4%B9%9F%E8%83%BD%E8%B5%B0%E5%BE%97%E5%BE%88%E7%BE%8E;%E6%85%A2%E6%85%A2%E6%9D%A5%EF%BC%8C%E6%AF%94%E8%BE%83%E5%BF%AB" alt="typing"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/STATUS-ONLINE-00F5FF?style=for-the-badge&labelColor=0b1020&logo=statuspage&logoColor=00F5FF" alt="status"/>
-  <img src="https://img.shields.io/badge/ROLE-SOLO_RUNNER-A78BFA?style=for-the-badge&labelColor=0b1020&logo=target&logoColor=A78BFA" alt="role"/>
-  <img src="https://img.shields.io/badge/BASE-CHINA-FF2D95?style=for-the-badge&labelColor=0b1020&logo=googleearth&logoColor=FF2D95" alt="base"/>
+  <img src="https://img.shields.io/badge/%F0%9F%8C%99_MOOD-soft_%26_warm-F9A8D4?style=for-the-badge&labelColor=241c3f" alt="mood"/>
+  <img src="https://img.shields.io/badge/%F0%9F%8C%B1_BASE-China-C4B5FD?style=for-the-badge&labelColor=241c3f" alt="base"/>
+  <img src="https://img.shields.io/badge/%E2%9C%A8_ALIAS-L0NE--6-A7F3D0?style=for-the-badge&labelColor=241c3f" alt="alias"/>
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/github/followers/L0NE-6?label=FOLLOWERS&style=flat-square&color=00F5FF&labelColor=0b1020&logo=github&logoColor=00F5FF" alt="followers"/>
-  <img src="https://komarev.com/ghpvc/?username=L0NE-6&label=VISITORS&color=A78BFA&style=flat-square" alt="visitors"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/terminal.svg" alt="terminal" width="90%"/>
+  <img src="https://img.shields.io/github/followers/L0NE-6?label=%E2%9C%A8%20FOLLOWERS&style=flat-square&color=C4B5FD&labelColor=241c3f" alt="followers"/>
+  <img src="https://komarev.com/ghpvc/?username=L0NE-6&label=%E2%98%BD%20VISITORS&color=F9A8D4&style=flat-square" alt="visitors"/>
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/divider.svg" alt="divider" width="100%"/>
+  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/divider-aurora.svg" alt="divider" width="100%"/>
 </div>
 
-## ▚ 关于我 · WHOAMI
+## ✦ 关于我 · 一点点自我介绍
 
 ```yaml
-# ── identity ──────────────────────────
-name:      单走一个6
-alias:     L0NE-6
-motto:     "一个人，一条路，单走一个6"
-role:      工具收集者 / 自动化爱好者 / 独立开发者
-status:    ONLINE · 持续输出中 ⚡
+# ── 我的小档案 ─────────────────
+名字:     单走一个6
+别名:     L0NE-6
+位置:     🌏 中国 · UTC+08:00
+状态:     ✨ 安静地写代码中
+喜欢的:   深夜 / 音乐 / 一个人把问题想明白
+在做的事: 收集好用的小工具，慢慢做成自己的样子
 ```
 
-> 💡 一个人单走一条路，把每个不起眼的小需求，做成顺手好用的小工具。
+> 🌙 一个人单走一条路，也能走得很美。
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/divider.svg" alt="divider" width="100%"/>
+  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/divider-aurora.svg" alt="divider" width="100%"/>
 </div>
 
-## ▚ 技能矩阵 · SKILL MATRIX
+## ✦ 此刻在听 · NOW PLAYING
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/skills.svg" alt="skills" width="90%"/>
+  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/music.svg" alt="music" width="92%"/>
+</div>
+
+<br/>
+
+> 🎧 写代码的时候总要有首歌陪着 —— 循环一首，坐到天亮。
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/divider-aurora.svg" alt="divider" width="100%"/>
+</div>
+
+## ✦ 技能花园 · SKILL GARDEN
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/skills-aurora.svg" alt="skills" width="92%"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Python-00F5FF?style=for-the-badge&labelColor=0b1020&logo=python&logoColor=00F5FF" alt="python"/>
-  <img src="https://img.shields.io/badge/PowerShell-A78BFA?style=for-the-badge&labelColor=0b1020&logo=powershell&logoColor=A78BFA" alt="powershell"/>
-  <img src="https://img.shields.io/badge/Shell-FF2D95?style=for-the-badge&labelColor=0b1020&logo=gnubash&logoColor=FF2D95" alt="shell"/>
-  <img src="https://img.shields.io/badge/JavaScript-00F5FF?style=for-the-badge&labelColor=0b1020&logo=javascript&logoColor=00F5FF" alt="javascript"/>
+  <img src="https://img.shields.io/badge/Python-F9A8D4?style=for-the-badge&labelColor=241c3f&logo=python&logoColor=F9A8D4" alt="python"/>
+  <img src="https://img.shields.io/badge/PowerShell-C4B5FD?style=for-the-badge&labelColor=241c3f&logo=powershell&logoColor=C4B5FD" alt="powershell"/>
+  <img src="https://img.shields.io/badge/Shell-A7F3D0?style=for-the-badge&labelColor=241c3f&logo=gnubash&logoColor=A7F3D0" alt="shell"/>
+  <img src="https://img.shields.io/badge/JavaScript-BAE6FD?style=for-the-badge&labelColor=241c3f&logo=javascript&logoColor=BAE6FD" alt="javascript"/>
   <br/>
-  <img src="https://img.shields.io/badge/Git-A78BFA?style=for-the-badge&labelColor=0b1020&logo=git&logoColor=A78BFA" alt="git"/>
-  <img src="https://img.shields.io/badge/Docker-FF2D95?style=for-the-badge&labelColor=0b1020&logo=docker&logoColor=FF2D95" alt="docker"/>
-  <img src="https://img.shields.io/badge/Linux-00F5FF?style=for-the-badge&labelColor=0b1020&logo=linux&logoColor=00F5FF" alt="linux"/>
-  <img src="https://img.shields.io/badge/Automation-A78BFA?style=for-the-badge&labelColor=0b1020&logo=githubactions&logoColor=A78BFA" alt="automation"/>
+  <img src="https://img.shields.io/badge/Git-C4B5FD?style=for-the-badge&labelColor=241c3f&logo=git&logoColor=C4B5FD" alt="git"/>
+  <img src="https://img.shields.io/badge/Docker-BAE6FD?style=for-the-badge&labelColor=241c3f&logo=docker&logoColor=BAE6FD" alt="docker"/>
+  <img src="https://img.shields.io/badge/Linux-F9A8D4?style=for-the-badge&labelColor=241c3f&logo=linux&logoColor=F9A8D4" alt="linux"/>
+  <img src="https://img.shields.io/badge/Automation-A7F3D0?style=for-the-badge&labelColor=241c3f&logo=githubactions&logoColor=A7F3D0" alt="automation"/>
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/divider.svg" alt="divider" width="100%"/>
+  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/divider-aurora.svg" alt="divider" width="100%"/>
 </div>
 
-## ▚ 数据面板 · TELEMETRY
+## ✦ 走过的痕迹 · LITTLE TRACES
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/output/metrics.svg" alt="metrics" width="95%"/>
@@ -92,75 +97,75 @@ status:    ONLINE · 持续输出中 ⚡
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/L0NE-6/L0NE-6/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/L0NE-6/L0NE-6/output/github-contribution-grid-snake.svg" />
-    <img alt="贡献格子小蛇 🐍" src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/output/github-contribution-grid-snake.svg" />
+    <img alt="贡献小蛇 🐍" src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/output/github-contribution-grid-snake.svg" />
   </picture>
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/divider.svg" alt="divider" width="100%"/>
+  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/divider-aurora.svg" alt="divider" width="100%"/>
 </div>
 
-## ▚ 项目仓库 · PROJECTS
+## ✦ 小抽屉 · MY DRAWERS
 
 <table align="center" width="95%">
   <tr>
     <td align="center" width="50%">
-      <img src="https://img.shields.io/badge/%F0%9F%93%A6-my--code--scripts-A78BFA?style=for-the-badge&labelColor=0b1020" alt="my-code-scripts"/>
+      <img src="https://img.shields.io/badge/%F0%9F%93%A6-my--code--scripts-C4B5FD?style=for-the-badge&labelColor=241c3f" alt="scripts"/>
       <br/><br/>
-      <sub><b>个人代码与脚本库</b> · 私有<br/>日常小脚本与工具收纳</sub>
+      <sub><b>个人代码与脚本库</b><br/>收纳日常用得到的小脚本</sub>
       <br/><br/>
-      <code>Python</code> <code>PowerShell</code> <code>自动化</code>
+      <sub><code>Python</code> <code>PowerShell</code></sub>
     </td>
     <td align="center" width="50%">
-      <img src="https://img.shields.io/badge/%E2%9A%A1-code--collection--share-00F5FF?style=for-the-badge&labelColor=0b1020" alt="code-collection-share"/>
+      <img src="https://img.shields.io/badge/%E2%9C%A8-code--collection--share-F9A8D4?style=for-the-badge&labelColor=241c3f" alt="share"/>
       <br/><br/>
-      <sub><b>代码集合分享</b> · 公开<br/>资源共享与问题反馈</sub>
+      <sub><b>代码集合分享</b><br/>把好东西分享出去</sub>
       <br/><br/>
-      <code>分享</code> <code>收集</code> <code>开源</code>
+      <sub><code>分享</code> <code>收集</code></sub>
     </td>
   </tr>
 </table>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/divider.svg" alt="divider" width="100%"/>
+  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/divider-aurora.svg" alt="divider" width="100%"/>
 </div>
 
-## ▚ 信条 · MINDSET
+## ✦ 我的小坚持 · LITTLE BELIEFS
 
-<table align="center" width="90%">
+<table align="center" width="92%">
   <tr>
     <td align="center" width="33%">
-      <h3>⚡</h3>
-      <b>单走</b><br/>
-      <sub>一个人也能走完整条路</sub>
-    </td>
-    <td align="center" width="33%">
-      <h3>🔧</h3>
-      <b>造轮</b><br/>
-      <sub>小工具解决真问题</sub>
-    </td>
-    <td align="center" width="33%">
       <h3>🌙</h3>
-      <b>夜行</b><br/>
-      <sub>深夜是最清醒的时刻</sub>
+      <b>慢一点</b><br/>
+      <sub>慢慢来，比较快</sub>
+    </td>
+    <td align="center" width="33%">
+      <h3>🌿</h3>
+      <b>简单点</b><br/>
+      <sub>能跑就好，够用就行</sub>
+    </td>
+    <td align="center" width="33%">
+      <h3>✨</h3>
+      <b>温柔点</b><br/>
+      <sub>对自己，也对代码</sub>
     </td>
   </tr>
 </table>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/divider.svg" alt="divider" width="100%"/>
+  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/divider-aurora.svg" alt="divider" width="100%"/>
 </div>
 
-## ▚ 连接 · CONNECT
+## ✦ 打个招呼 · SAY HI
 
 <div align="center">
   <a href="https://github.com/L0NE-6">
-    <img src="https://img.shields.io/badge/GITHUB-00F5FF?style=for-the-badge&labelColor=0b1020&logo=github&logoColor=00F5FF" alt="github"/>
+    <img src="https://img.shields.io/badge/%F0%9F%8C%99_GITHUB-C4B5FD?style=for-the-badge&labelColor=241c3f&logo=github&logoColor=C4B5FD" alt="github"/>
   </a>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/footer.svg" alt="footer" width="100%"/>
+  <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/footer-aurora.svg" alt="footer" width="100%"/>
 </div>
