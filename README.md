@@ -9,7 +9,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=15&duration=3500&pause=900&color=FFFFFF&background=E52521&center=true&vCenter=true&width=700&height=44&lines=PRESS+START+%E5%8D%95%E8%B5%B0%E4%B8%80%E4%B8%AA6;WORLD+1-1+%E2%86%92+GO!;LET%27S+GO+MARIO!" alt="press start"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=15&duration=3500&pause=900&color=FFFFFF&background=E52521&center=true&vCenter=true&width=700&height=44&lines=PRESS+START+%E2%96%B6;WORLD+1-1+%E2%86%92+GO!;LET%27S+GO+MARIO!;AUTO+RUNNING+%E2%9A%A1" alt="press start"/>
 </div>
 
 <br/>
