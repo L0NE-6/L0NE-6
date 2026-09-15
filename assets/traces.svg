@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="270" viewBox="0 0 900 270" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="tg" x1="0%" x2="100%"><stop offset="0%" stop-color="#F9A8D4"/><stop offset="50%" stop-color="#C4B5FD"/><stop offset="100%" stop-color="#A7F3D0"/></linearGradient>
+    <filter id="tgl" x="-30%" y="-200%" width="160%" height="500%"><feGaussianBlur stdDeviation="4"/></filter>
+    <radialGradient id="thalo"><stop offset="0%" stop-color="#C4B5FD" stop-opacity="0.22"/><stop offset="100%" stop-color="#C4B5FD" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect x="2" y="2" width="896" height="266" rx="18" fill="#241c3f" fill-opacity="0.92" stroke="#C4B5FD" stroke-opacity="0.32" stroke-width="1.5"/>
+  <ellipse cx="450" cy="60" rx="300" ry="70" fill="url(#thalo)"/>
+  <text x="450" y="58" text-anchor="middle" font-size="19" font-weight="600" fill="url(#tg)" letter-spacing="3" filter="url(#tgl)" opacity="0.5">&#10022; 走过的痕迹</text>
+  <text x="450" y="58" text-anchor="middle" font-size="19" font-weight="600" fill="url(#tg)" letter-spacing="3">&#10022; 走过的痕迹</text>
+  <text x="450" y="82" text-anchor="middle" font-size="12" fill="#C9BEE8">每一天都算数 &#183; EVERY STEP COUNTS</text>
+  <g transform="translate(150,168)">
+    <text text-anchor="middle" font-size="30" font-weight="700" fill="#F9A8D4">1856</text>
+    <text y="26" text-anchor="middle" font-size="13" fill="#C9BEE8">天前遇见 GitHub</text>
+  </g>
+  <g transform="translate(350,168)">
+    <text text-anchor="middle" font-size="30" font-weight="700" fill="#C4B5FD">5</text>
+    <text y="26" text-anchor="middle" font-size="13" fill="#C9BEE8">个小仓库</text>
+  </g>
+  <g transform="translate(550,168)">
+    <text text-anchor="middle" font-size="30" font-weight="700" fill="#A7F3D0">61</text>
+    <text y="26" text-anchor="middle" font-size="13" fill="#C9BEE8">颗星星</text>
+  </g>
+  <g transform="translate(750,168)">
+    <text text-anchor="middle" font-size="30" font-weight="700" fill="#BAE6FD">1</text>
+    <text y="26" text-anchor="middle" font-size="13" fill="#C9BEE8">位同行者</text>
+  </g>
+  <line x1="230" y1="120" x2="230" y2="200" stroke="#C4B5FD" stroke-opacity="0.18"/>
+  <line x1="430" y1="120" x2="430" y2="200" stroke="#C4B5FD" stroke-opacity="0.18"/>
+  <line x1="630" y1="120" x2="630" y2="200" stroke="#C4B5FD" stroke-opacity="0.18"/>
+  <text x="450" y="246" text-anchor="middle" font-size="12" fill="#A99BD6">&#127769; 一个人单走一条路，也在慢慢发光</text>
+</svg>
