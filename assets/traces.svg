@@ -1,32 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="270" viewBox="0 0 900 270" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
   <defs>
-    <linearGradient id="tg" x1="0%" x2="100%"><stop offset="0%" stop-color="#F9A8D4"/><stop offset="50%" stop-color="#C4B5FD"/><stop offset="100%" stop-color="#A7F3D0"/></linearGradient>
-    <filter id="tgl" x="-30%" y="-200%" width="160%" height="500%"><feGaussianBlur stdDeviation="4"/></filter>
-    <radialGradient id="thalo"><stop offset="0%" stop-color="#C4B5FD" stop-opacity="0.22"/><stop offset="100%" stop-color="#C4B5FD" stop-opacity="0"/></radialGradient>
+    <linearGradient id="gr" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5C94FC"/><stop offset="100%" stop-color="#B8DBFF"/>
+    </linearGradient>
+    <linearGradient id="fl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#E52521"/>
+    </linearGradient>
   </defs>
-  <rect x="2" y="2" width="896" height="266" rx="18" fill="#241c3f" fill-opacity="0.92" stroke="#C4B5FD" stroke-opacity="0.32" stroke-width="1.5"/>
-  <ellipse cx="450" cy="60" rx="300" ry="70" fill="url(#thalo)"/>
-  <text x="450" y="58" text-anchor="middle" font-size="19" font-weight="600" fill="url(#tg)" letter-spacing="3" filter="url(#tgl)" opacity="0.5">&#10022; 走过的痕迹</text>
-  <text x="450" y="58" text-anchor="middle" font-size="19" font-weight="600" fill="url(#tg)" letter-spacing="3">&#10022; 走过的痕迹</text>
-  <text x="450" y="82" text-anchor="middle" font-size="12" fill="#C9BEE8">每一天都算数 &#183; EVERY STEP COUNTS</text>
-  <g transform="translate(150,168)">
-    <text text-anchor="middle" font-size="30" font-weight="700" fill="#F9A8D4">1856</text>
-    <text y="26" text-anchor="middle" font-size="13" fill="#C9BEE8">天前遇见 GitHub</text>
+  <rect x="2" y="2" width="896" height="296" rx="6" fill="url(#gr)" stroke="#2A5BD7" stroke-width="3"/>
+  <g fill="#FFFFFF" opacity="0.95">
+    <g transform="translate(60,26)"><rect x="0" y="10" width="70" height="18"/><rect x="12" y="2" width="42" height="12"/></g>
+    <g transform="translate(760,32)"><rect x="0" y="10" width="80" height="18"/><rect x="14" y="2" width="48" height="12"/></g>
   </g>
-  <g transform="translate(350,168)">
-    <text text-anchor="middle" font-size="30" font-weight="700" fill="#C4B5FD">4</text>
-    <text y="26" text-anchor="middle" font-size="13" fill="#C9BEE8">个小仓库</text>
+  <text x="450" y="52" text-anchor="middle" font-size="20" font-weight="900" fill="#FFFFFF" stroke="#E52521" stroke-width="5" paint-order="stroke" letter-spacing="3">&#9733; 走过的痕迹 &#9733;</text>
+  <text x="450" y="76" text-anchor="middle" font-size="12" font-weight="700" fill="#FFF3C4" letter-spacing="1">每一枚金币，都是认真走过的一天</text>
+  <g transform="translate(146,168)">
+    <ellipse cx="0" cy="0" rx="30" ry="38" fill="#FFD93B" stroke="#C99A00" stroke-width="5">
+      <animate attributeName="rx" values="30;6;30" dur="3.4s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="0" cy="0" rx="16" ry="22" fill="none" stroke="#C99A00" stroke-width="4" opacity="0.7">
+      <animate attributeName="rx" values="16;3;16" dur="3.4s" repeatCount="indefinite"/>
+    </ellipse>
+    <text x="0" y="12" text-anchor="middle" font-size="26" font-weight="900" fill="#FFFFFF" stroke="#C99A00" stroke-width="1.5" paint-order="stroke">1856</text>
+    <text x="0" y="62" text-anchor="middle" font-size="13" font-weight="700" fill="#FFF3C4">天前开始冒险</text>
   </g>
-  <g transform="translate(550,168)">
-    <text text-anchor="middle" font-size="30" font-weight="700" fill="#A7F3D0">61</text>
-    <text y="26" text-anchor="middle" font-size="13" fill="#C9BEE8">颗星星</text>
+  <g transform="translate(348,168)">
+    <ellipse cx="0" cy="0" rx="30" ry="38" fill="#FFD93B" stroke="#C99A00" stroke-width="5">
+      <animate attributeName="rx" values="30;6;30" dur="3.4s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="0" cy="0" rx="16" ry="22" fill="none" stroke="#C99A00" stroke-width="4" opacity="0.7">
+      <animate attributeName="rx" values="16;3;16" dur="3.4s" repeatCount="indefinite"/>
+    </ellipse>
+    <text x="0" y="12" text-anchor="middle" font-size="26" font-weight="900" fill="#FFFFFF" stroke="#C99A00" stroke-width="1.5" paint-order="stroke">4</text>
+    <text x="0" y="62" text-anchor="middle" font-size="13" font-weight="700" fill="#FFF3C4">个关卡（仓库）</text>
   </g>
-  <g transform="translate(750,168)">
-    <text text-anchor="middle" font-size="30" font-weight="700" fill="#BAE6FD">1</text>
-    <text y="26" text-anchor="middle" font-size="13" fill="#C9BEE8">位同行者</text>
+  <g transform="translate(552,168)">
+    <ellipse cx="0" cy="0" rx="30" ry="38" fill="#FFD93B" stroke="#C99A00" stroke-width="5">
+      <animate attributeName="rx" values="30;6;30" dur="3.4s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="0" cy="0" rx="16" ry="22" fill="none" stroke="#C99A00" stroke-width="4" opacity="0.7">
+      <animate attributeName="rx" values="16;3;16" dur="3.4s" repeatCount="indefinite"/>
+    </ellipse>
+    <text x="0" y="12" text-anchor="middle" font-size="26" font-weight="900" fill="#FFFFFF" stroke="#C99A00" stroke-width="1.5" paint-order="stroke">68</text>
+    <text x="0" y="62" text-anchor="middle" font-size="13" font-weight="700" fill="#FFF3C4">颗星星</text>
   </g>
-  <line x1="230" y1="120" x2="230" y2="200" stroke="#C4B5FD" stroke-opacity="0.18"/>
-  <line x1="430" y1="120" x2="430" y2="200" stroke="#C4B5FD" stroke-opacity="0.18"/>
-  <line x1="630" y1="120" x2="630" y2="200" stroke="#C4B5FD" stroke-opacity="0.18"/>
-  <text x="450" y="246" text-anchor="middle" font-size="12" fill="#A99BD6">&#127769; 一个人单走一条路，也在慢慢发光</text>
+  <g transform="translate(754,168)">
+    <ellipse cx="0" cy="0" rx="30" ry="38" fill="#FFD93B" stroke="#C99A00" stroke-width="5">
+      <animate attributeName="rx" values="30;6;30" dur="3.4s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="0" cy="0" rx="16" ry="22" fill="none" stroke="#C99A00" stroke-width="4" opacity="0.7">
+      <animate attributeName="rx" values="16;3;16" dur="3.4s" repeatCount="indefinite"/>
+    </ellipse>
+    <text x="0" y="12" text-anchor="middle" font-size="26" font-weight="900" fill="#FFFFFF" stroke="#C99A00" stroke-width="1.5" paint-order="stroke">1</text>
+    <text x="0" y="62" text-anchor="middle" font-size="13" font-weight="700" fill="#FFF3C4">位队友</text>
+  </g>
+  <g transform="translate(370,238)">
+    <rect x="0" y="0" width="160" height="38" rx="4" fill="#8A4B00"/>
+    <rect x="5" y="5" width="150" height="28" rx="2" fill="#F8B800"/>
+    <text x="80" y="26" text-anchor="middle" font-size="16" font-weight="900" fill="#FFFFFF">&#9654; START</text>
+  </g>
+  <text x="450" y="292" text-anchor="middle" font-size="11" font-weight="700" fill="#2A5BD7">一个人单走一条路，也能通关</text>
 </svg>
