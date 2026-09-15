@@ -1,13 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="142" viewBox="0 0 900 142" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="156" viewBox="0 0 900 156" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
   <defs>
-    <filter id="sgl" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="4"/></filter>
+    <linearGradient id="mp" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5C94FC"/><stop offset="100%" stop-color="#8FC0FF"/>
+    </linearGradient>
   </defs>
-  <rect x="2" y="2" width="896" height="138" rx="18" fill="#241c3f" fill-opacity="0.92" stroke="#C4B5FD" stroke-opacity="0.32" stroke-width="1.5"/>
-  <text x="40" y="52" font-size="18" font-weight="600" fill="#FFFFFF" letter-spacing="2">&#10022; 技能花园</text>
-  <text x="40" y="76" font-size="12" fill="#C9BEE8">SKILL GARDEN &#183; 根据仓库语言自动生长</text>
-  <text x="40" y="121" font-size="15" fill="#F5EDFF">Python</text>
-  <rect x="210" y="108" width="560" height="15" rx="7.5" fill="#332a56"/>
-  <rect x="210" y="108" width="560" height="15" rx="7.5" fill="#F9A8D4" opacity="0.85" filter="url(#sgl)"/>
-  <rect x="210" y="108" width="560" height="15" rx="7.5" fill="#F9A8D4"/>
-  <text x="790" y="121" font-size="13" fill="#C9BEE8">100.0%</text>
+  <rect x="2" y="2" width="896" height="152" rx="6" fill="url(#mp)" stroke="#2A5BD7" stroke-width="3"/>
+  <g transform="translate(28,26)">
+    <rect x="0" y="0" width="34" height="34" fill="#8A4B00"/><rect x="3" y="3" width="28" height="28" fill="#F8B800"/>
+    <text x="17" y="26" text-anchor="middle" font-size="22" font-weight="900" fill="#FFFFFF">?</text>
+  </g>
+  <text x="76" y="42" font-size="19" font-weight="900" fill="#FFFFFF" letter-spacing="2">技能花园 · POWER-UPS</text>
+  <text x="76" y="62" font-size="12" font-weight="700" fill="#FFF3C4" letter-spacing="1">吃下蘑菇，能力就会长大 &#183; 根据仓库语言自动生长</text>
+  <rect x="28" y="78" width="844" height="3" fill="#2A5BD7" opacity="0.5"/>
+  <g transform="translate(44,112)">
+    <rect x="4" y="0" width="14" height="4" fill="#E52521"/>
+    <rect x="0" y="4" width="22" height="8" fill="#E52521"/>
+    <rect x="4" y="12" width="14" height="5" fill="#FFF3C4"/>
+    <rect x="7" y="13.5" width="3" height="3" fill="#2A2A2A"/>
+    <rect x="12" y="13.5" width="3" height="3" fill="#2A2A2A"/>
+  </g>
+  <text x="80" y="129" font-size="15" font-weight="700" fill="#FFFFFF">Python</text>
+  <rect x="220" y="116" width="540" height="16" rx="3" fill="#3A2A1A" stroke="#8A4B00" stroke-width="1.5"/>
+  <rect x="222" y="118" width="540" height="12" rx="2" fill="#E52521"/>
+  <rect x="222" y="118" width="540" height="5" rx="2" fill="#FFFFFF" opacity="0.28"/>
+  <text x="782" y="129" font-size="13" font-weight="700" fill="#FFD93B">100.0%</text>
 </svg>
