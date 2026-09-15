@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="270" viewBox="0 0 900 270" font-family="Consolas,Menlo,monospace">
+  <defs>
+    <linearGradient id="s1" x1="0%" x2="100%"><stop offset="0%" stop-color="#00F5FF"/><stop offset="100%" stop-color="#A78BFA"/></linearGradient>
+    <linearGradient id="s2" x1="0%" x2="100%"><stop offset="0%" stop-color="#A78BFA"/><stop offset="100%" stop-color="#FF2D95"/></linearGradient>
+    <linearGradient id="s3" x1="0%" x2="100%"><stop offset="0%" stop-color="#FF2D95"/><stop offset="100%" stop-color="#00F5FF"/></linearGradient>
+    <filter id="gs" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+  <rect width="900" height="270" rx="14" fill="#0b1020" stroke="#A78BFA" stroke-opacity="0.35" stroke-width="2"/>
+  <text x="40" y="48" font-size="17" font-weight="700" fill="#e2e8f0" letter-spacing="2">▚ SKILL MATRIX</text>
+  <rect x="40" y="62" width="820" height="2" fill="url(#s1)" opacity="0.5"/>
+  <text x="40" y="102" font-size="15" fill="#7dd3fc">Python</text>
+  <rect x="200" y="88" width="560" height="16" rx="8" fill="#151b33"/>
+  <rect x="200" y="88" width="476" height="16" rx="8" fill="url(#s1)" filter="url(#gs)" opacity="0.85"/>
+  <rect x="200" y="88" width="476" height="16" rx="8" fill="url(#s1)"/>
+  <text x="790" y="102" font-size="14" fill="#8b95c9">85%</text>
+  <text x="40" y="148" font-size="15" fill="#7dd3fc">PowerShell</text>
+  <rect x="200" y="134" width="560" height="16" rx="8" fill="#151b33"/>
+  <rect x="200" y="134" width="448" height="16" rx="8" fill="url(#s2)" filter="url(#gs)" opacity="0.85"/>
+  <rect x="200" y="134" width="448" height="16" rx="8" fill="url(#s2)"/>
+  <text x="790" y="148" font-size="14" fill="#8b95c9">80%</text>
+  <text x="40" y="194" font-size="15" fill="#7dd3fc">Shell / Bash</text>
+  <rect x="200" y="180" width="560" height="16" rx="8" fill="#151b33"/>
+  <rect x="200" y="180" width="420" height="16" rx="8" fill="url(#s3)" filter="url(#gs)" opacity="0.85"/>
+  <rect x="200" y="180" width="420" height="16" rx="8" fill="url(#s3)"/>
+  <text x="790" y="194" font-size="14" fill="#8b95c9">75%</text>
+  <text x="40" y="240" font-size="15" fill="#7dd3fc">JavaScript</text>
+  <rect x="200" y="226" width="560" height="16" rx="8" fill="#151b33"/>
+  <rect x="200" y="226" width="392" height="16" rx="8" fill="url(#s1)" filter="url(#gs)" opacity="0.85"/>
+  <rect x="200" y="226" width="392" height="16" rx="8" fill="url(#s1)"/>
+  <text x="790" y="240" font-size="14" fill="#8b95c9">70%</text>
+</svg>
