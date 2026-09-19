@@ -124,63 +124,6 @@
       <line x1="875" y1="385" x2="875" y2="420"/><line x1="945" y1="385" x2="945" y2="420"/>
     </g>
 
-    <!-- ===== floating block row: B Q B Q B ===== -->
-    <g transform="translate(384,248)">
-      <rect width="44" height="44" fill="#8A4B00"/><rect x="3" y="3" width="38" height="38" fill="#C84C0C"/>
-      <rect x="7" y="7" width="14" height="12" fill="#E08050"/><rect x="23" y="7" width="14" height="12" fill="#C84C0C"/>
-      <rect x="7" y="21" width="14" height="12" fill="#C84C0C" opacity="0.85"/><rect x="23" y="21" width="14" height="12" fill="#E08050" opacity="0.7"/>
-    </g>
-    <g>
-      <animateTransform attributeName="transform" type="translate" values="428,248;428,248;428,232;428,248;428,248" keyTimes="0;0.44;0.452;0.466;1" dur="16s" repeatCount="indefinite"/>
-      <rect width="44" height="44" fill="#8A4B00"/>
-      <rect x="3" y="3" width="38" height="38" fill="#FFA044"/>
-      <rect x="7" y="7" width="30" height="30" fill="#F8B800"/>
-      <rect x="8" y="8" width="4" height="4" fill="#FFF3C4"/><rect x="32" y="8" width="4" height="4" fill="#FFF3C4"/>
-      <rect x="8" y="32" width="4" height="4" fill="#FFF3C4"/><rect x="32" y="32" width="4" height="4" fill="#FFF3C4"/>
-      <text x="22" y="32" text-anchor="middle" font-size="26" font-weight="900" fill="#FFFFFF" font-family="monospace">?</text>
-    </g>
-    <g transform="translate(472,248)">
-      <rect width="44" height="44" fill="#8A4B00"/><rect x="3" y="3" width="38" height="38" fill="#C84C0C"/>
-      <rect x="7" y="7" width="14" height="12" fill="#C84C0C" opacity="0.85"/><rect x="23" y="7" width="14" height="12" fill="#E08050"/>
-      <rect x="7" y="21" width="14" height="12" fill="#E08050" opacity="0.7"/><rect x="23" y="21" width="14" height="12" fill="#C84C0C"/>
-    </g>
-    <g>
-      <animateTransform attributeName="transform" type="translate" values="516,248;516,248;516,232;516,248;516,248" keyTimes="0;0.508;0.52;0.534;1" dur="16s" repeatCount="indefinite"/>
-      <rect width="44" height="44" fill="#8A4B00"/>
-      <rect x="3" y="3" width="38" height="38" fill="#FFA044"/>
-      <rect x="7" y="7" width="30" height="30" fill="#F8B800"/>
-      <rect x="8" y="8" width="4" height="4" fill="#FFF3C4"/><rect x="32" y="8" width="4" height="4" fill="#FFF3C4"/>
-      <rect x="8" y="32" width="4" height="4" fill="#FFF3C4"/><rect x="32" y="32" width="4" height="4" fill="#FFF3C4"/>
-      <text x="22" y="32" text-anchor="middle" font-size="26" font-weight="900" fill="#FFFFFF" font-family="monospace">?</text>
-    </g>
-    <g transform="translate(560,248)">
-      <rect width="44" height="44" fill="#8A4B00"/><rect x="3" y="3" width="38" height="38" fill="#C84C0C"/>
-      <rect x="7" y="7" width="14" height="12" fill="#E08050"/><rect x="23" y="7" width="14" height="12" fill="#C84C0C" opacity="0.85"/>
-      <rect x="7" y="21" width="14" height="12" fill="#C84C0C"/><rect x="23" y="21" width="14" height="12" fill="#E08050" opacity="0.7"/>
-    </g>
-
-    <!-- mushroom emerging from the first ? block -->
-    <g opacity="1">
-      <animate attributeName="opacity" values="0;0;1;1;1;0;0" keyTimes="0;0.445;0.458;0.5;0.56;0.585;1" dur="16s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="450,236;450,236;450,206;450,206;494,206;520,206" keyTimes="0;0.445;0.47;0.5;0.56;0.585" dur="16s" repeatCount="indefinite"/>
-      <rect x="-16" y="-14" width="32" height="14" fill="#E52521"/>
-      <rect x="-20" y="-8" width="40" height="8" fill="#E52521"/>
-      <rect x="-20" y="0" width="40" height="14" fill="#FFF3C4"/>
-      <circle cx="-10" cy="-6" r="4" fill="#FFFFFF"/>
-      <circle cx="8" cy="-6" r="4" fill="#FFFFFF"/>
-      <circle cx="0" cy="-14" r="4" fill="#FFFFFF"/>
-      <rect x="-12" y="4" width="5" height="5" fill="#2A2A2A"/>
-      <rect x="7" y="4" width="5" height="5" fill="#2A2A2A"/>
-    </g>
-
-    <!-- coin popping out of the second ? block -->
-    <g opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.518;0.524;0.545;0.565;1" dur="16s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="538,246;538,246;538,186;538,166" keyTimes="0;0.518;0.545;1" dur="16s" repeatCount="indefinite"/>
-      <ellipse cx="0" cy="0" rx="11" ry="15" fill="#FFD93B" stroke="#C99A00" stroke-width="3"/>
-      <ellipse cx="0" cy="0" rx="5" ry="9" fill="none" stroke="#C99A00" stroke-width="3" opacity="0.65"/>
-    </g>
-
     <!-- ===== floating coins (auto collected) ===== -->
     <g>
       <g transform="translate(180,262)">
@@ -188,12 +131,11 @@
           <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-58;0,-78" keyTimes="0;0.254;0.285;1" dur="16s" repeatCount="indefinite"/>
           <g>
             <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.254;0.31;1" dur="16s" repeatCount="indefinite"/>
-            <ellipse cx="0" cy="0" rx="11" ry="15" fill="#FFD93B" stroke="#C99A00" stroke-width="3">
-              <animate attributeName="rx" values="11;2;11" dur="1.6s" repeatCount="indefinite"/>
-            </ellipse>
-            <ellipse cx="0" cy="0" rx="5" ry="9" fill="none" stroke="#C99A00" stroke-width="3" opacity="0.65">
-              <animate attributeName="rx" values="5;1;5" dur="1.6s" repeatCount="indefinite"/>
-            </ellipse>
+            <g>
+              <animateTransform attributeName="transform" type="scale" values="1 1;0.18 1;1 1" keyTimes="0;0.5;1" dur="1.6s" repeatCount="indefinite"/>
+              <ellipse cx="0" cy="0" rx="11" ry="15" fill="#FFD93B" stroke="#C99A00" stroke-width="3" vector-effect="non-scaling-stroke"/>
+              <ellipse cx="0" cy="0" rx="5" ry="9" fill="none" stroke="#C99A00" stroke-width="3" opacity="0.65" vector-effect="non-scaling-stroke"/>
+            </g>
           </g>
         </g>
       </g>
@@ -202,12 +144,11 @@
           <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-58;0,-78" keyTimes="0;0.30;0.331;1" dur="16s" repeatCount="indefinite"/>
           <g>
             <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.30;0.356;1" dur="16s" repeatCount="indefinite"/>
-            <ellipse cx="0" cy="0" rx="11" ry="15" fill="#FFD93B" stroke="#C99A00" stroke-width="3">
-              <animate attributeName="rx" values="11;2;11" dur="1.6s" begin="0.4s" repeatCount="indefinite"/>
-            </ellipse>
-            <ellipse cx="0" cy="0" rx="5" ry="9" fill="none" stroke="#C99A00" stroke-width="3" opacity="0.65">
-              <animate attributeName="rx" values="5;1;5" dur="1.6s" begin="0.4s" repeatCount="indefinite"/>
-            </ellipse>
+            <g>
+              <animateTransform attributeName="transform" type="scale" values="1 1;0.18 1;1 1" keyTimes="0;0.5;1" dur="1.6s" begin="0.4s" repeatCount="indefinite"/>
+              <ellipse cx="0" cy="0" rx="11" ry="15" fill="#FFD93B" stroke="#C99A00" stroke-width="3" vector-effect="non-scaling-stroke"/>
+              <ellipse cx="0" cy="0" rx="5" ry="9" fill="none" stroke="#C99A00" stroke-width="3" opacity="0.65" vector-effect="non-scaling-stroke"/>
+            </g>
           </g>
         </g>
       </g>
@@ -216,12 +157,11 @@
           <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-58;0,-78" keyTimes="0;0.346;0.377;1" dur="16s" repeatCount="indefinite"/>
           <g>
             <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.346;0.402;1" dur="16s" repeatCount="indefinite"/>
-            <ellipse cx="0" cy="0" rx="11" ry="15" fill="#FFD93B" stroke="#C99A00" stroke-width="3">
-              <animate attributeName="rx" values="11;2;11" dur="1.6s" begin="0.8s" repeatCount="indefinite"/>
-            </ellipse>
-            <ellipse cx="0" cy="0" rx="5" ry="9" fill="none" stroke="#C99A00" stroke-width="3" opacity="0.65">
-              <animate attributeName="rx" values="5;1;5" dur="1.6s" begin="0.8s" repeatCount="indefinite"/>
-            </ellipse>
+            <g>
+              <animateTransform attributeName="transform" type="scale" values="1 1;0.18 1;1 1" keyTimes="0;0.5;1" dur="1.6s" begin="0.8s" repeatCount="indefinite"/>
+              <ellipse cx="0" cy="0" rx="11" ry="15" fill="#FFD93B" stroke="#C99A00" stroke-width="3" vector-effect="non-scaling-stroke"/>
+              <ellipse cx="0" cy="0" rx="5" ry="9" fill="none" stroke="#C99A00" stroke-width="3" opacity="0.65" vector-effect="non-scaling-stroke"/>
+            </g>
           </g>
         </g>
       </g>
@@ -230,12 +170,11 @@
           <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-58;0,-78" keyTimes="0;0.392;0.423;1" dur="16s" repeatCount="indefinite"/>
           <g>
             <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.392;0.448;1" dur="16s" repeatCount="indefinite"/>
-            <ellipse cx="0" cy="0" rx="11" ry="15" fill="#FFD93B" stroke="#C99A00" stroke-width="3">
-              <animate attributeName="rx" values="11;2;11" dur="1.6s" begin="1.2s" repeatCount="indefinite"/>
-            </ellipse>
-            <ellipse cx="0" cy="0" rx="5" ry="9" fill="none" stroke="#C99A00" stroke-width="3" opacity="0.65">
-              <animate attributeName="rx" values="5;1;5" dur="1.6s" begin="1.2s" repeatCount="indefinite"/>
-            </ellipse>
+            <g>
+              <animateTransform attributeName="transform" type="scale" values="1 1;0.18 1;1 1" keyTimes="0;0.5;1" dur="1.6s" begin="1.2s" repeatCount="indefinite"/>
+              <ellipse cx="0" cy="0" rx="11" ry="15" fill="#FFD93B" stroke="#C99A00" stroke-width="3" vector-effect="non-scaling-stroke"/>
+              <ellipse cx="0" cy="0" rx="5" ry="9" fill="none" stroke="#C99A00" stroke-width="3" opacity="0.65" vector-effect="non-scaling-stroke"/>
+            </g>
           </g>
         </g>
       </g>
@@ -245,32 +184,32 @@
     <g font-family="monospace" font-size="15" font-weight="900" fill="#FFFFFF">
       <text x="180" y="248" text-anchor="middle" opacity="0">+200
         <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.256;0.262;0.284;0.30;1" dur="16s" repeatCount="indefinite"/>
-        <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-30" keyTimes="0;0.256;0.30" dur="16s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-30;0,-30" keyTimes="0;0.256;0.30;1" dur="16s" repeatCount="indefinite"/>
       </text>
       <text x="240" y="248" text-anchor="middle" opacity="0">+200
         <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.302;0.308;0.33;0.346;1" dur="16s" repeatCount="indefinite"/>
-        <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-30" keyTimes="0;0.302;0.346" dur="16s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-30;0,-30" keyTimes="0;0.302;0.346;1" dur="16s" repeatCount="indefinite"/>
       </text>
       <text x="300" y="248" text-anchor="middle" opacity="0">+200
         <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.348;0.354;0.376;0.392;1" dur="16s" repeatCount="indefinite"/>
-        <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-30" keyTimes="0;0.348;0.392" dur="16s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-30;0,-30" keyTimes="0;0.348;0.392;1" dur="16s" repeatCount="indefinite"/>
       </text>
       <text x="360" y="248" text-anchor="middle" opacity="0">+200
         <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.394;0.40;0.422;0.438;1" dur="16s" repeatCount="indefinite"/>
-        <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-30" keyTimes="0;0.394;0.438" dur="16s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-30;0,-30" keyTimes="0;0.394;0.438;1" dur="16s" repeatCount="indefinite"/>
       </text>
       <text x="538" y="176" text-anchor="middle" opacity="0">+200
         <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.524;0.53;0.552;0.566;1" dur="16s" repeatCount="indefinite"/>
       </text>
       <text x="650" y="284" text-anchor="middle" opacity="0">+100
         <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.618;0.624;0.646;0.66;1" dur="16s" repeatCount="indefinite"/>
-        <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-28" keyTimes="0;0.618;0.66" dur="16s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-28;0,-28" keyTimes="0;0.618;0.66;1" dur="16s" repeatCount="indefinite"/>
       </text>
     </g>
 
     <!-- ===== piranha plant (behind pipe rim) ===== -->
     <g>
-      <animateTransform attributeName="transform" type="translate" values="835,272;835,272;835,306;835,306;835,272" keyTimes="0;0.35;0.5;0.72;0.86" dur="9s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="835,272;835,272;835,306;835,306;835,272;835,272" keyTimes="0;0.35;0.5;0.72;0.86;1" dur="8s" repeatCount="indefinite"/>
       <rect x="-10" y="0" width="20" height="40" fill="#58D854"/>
       <rect x="-14" y="-30" width="28" height="30" fill="#E52521"/>
       <rect x="-18" y="-22" width="36" height="14" fill="#E52521"/>
@@ -339,7 +278,7 @@
       <g transform="translate(0,294)">
         <g>
           <animateTransform attributeName="transform" type="translate"
-            values="0,0;0,0;0,-105;0,0;0,0;0,-105;0,0;0,0;0,-34;0,0;0,0"
+            values="0,0;0,0;0,-46;0,0;0,0;0,-46;0,0;0,0;0,-34;0,0;0,0"
             keyTimes="0;0.42;0.445;0.468;0.49;0.513;0.536;0.60;0.618;0.636;1"
             dur="16s" repeatCount="indefinite"/>
           <g transform="scale(4)">
@@ -387,6 +326,74 @@
           </g>
         </g>
       </g>
+    </g>
+
+    <!-- ===== question blocks: drawn AFTER Mario so the bricks occlude his head ===== -->
+    <!-- mushroom rising out of the first ? block (starts behind the bricks) -->
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="450,225;450,225;450,165;450,165;494,165;520,165;520,165"
+        keyTimes="0;0.443;0.47;0.5;0.56;0.585;1"
+        dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;1;1;0;0"
+        keyTimes="0;0.555;0.575;0.60;0.625;1"
+        dur="16s" repeatCount="indefinite"/>
+      <rect x="-16" y="-14" width="32" height="14" fill="#E52521"/>
+      <rect x="-20" y="-8" width="40" height="8" fill="#E52521"/>
+      <rect x="-20" y="0" width="40" height="14" fill="#FFF3C4"/>
+      <circle cx="-10" cy="-6" r="4" fill="#FFFFFF"/>
+      <circle cx="8" cy="-6" r="4" fill="#FFFFFF"/>
+      <circle cx="0" cy="-14" r="4" fill="#FFFFFF"/>
+      <rect x="-12" y="4" width="5" height="5" fill="#2A2A2A"/>
+      <rect x="7" y="4" width="5" height="5" fill="#2A2A2A"/>
+    </g>
+
+    <!-- coin popping out of the second ? block (also behind the bricks) -->
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="538,225;538,225;538,160;538,160;538,160"
+        keyTimes="0;0.518;0.548;0.60;1"
+        dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;1;1;0;0"
+        keyTimes="0;0.545;0.565;0.60;0.63;1"
+        dur="16s" repeatCount="indefinite"/>
+      <ellipse cx="0" cy="0" rx="11" ry="15" fill="#FFD93B" stroke="#C99A00" stroke-width="3"/>
+      <ellipse cx="0" cy="0" rx="5" ry="9" fill="none" stroke="#C99A00" stroke-width="3" opacity="0.65"/>
+    </g>
+
+    <!-- ===== floating block row: B Q B Q B (y=204 -> underside at 248 = Mario's head at apex) ===== -->
+    <g transform="translate(384,204)">
+      <rect width="44" height="44" fill="#8A4B00"/><rect x="3" y="3" width="38" height="38" fill="#C84C0C"/>
+      <rect x="7" y="7" width="14" height="12" fill="#E08050"/><rect x="23" y="7" width="14" height="12" fill="#C84C0C"/>
+      <rect x="7" y="21" width="14" height="12" fill="#C84C0C" opacity="0.85"/><rect x="23" y="21" width="14" height="12" fill="#E08050" opacity="0.7"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="428,204;428,204;428,188;428,204;428,204" keyTimes="0;0.44;0.452;0.466;1" dur="16s" repeatCount="indefinite"/>
+      <rect width="44" height="44" fill="#8A4B00"/>
+      <rect x="3" y="3" width="38" height="38" fill="#FFA044"/>
+      <rect x="7" y="7" width="30" height="30" fill="#F8B800"/>
+      <rect x="8" y="8" width="4" height="4" fill="#FFF3C4"/><rect x="32" y="8" width="4" height="4" fill="#FFF3C4"/>
+      <rect x="8" y="32" width="4" height="4" fill="#FFF3C4"/><rect x="32" y="32" width="4" height="4" fill="#FFF3C4"/>
+      <text x="22" y="32" text-anchor="middle" font-size="26" font-weight="900" fill="#FFFFFF" font-family="monospace">?</text>
+    </g>
+    <g transform="translate(472,204)">
+      <rect width="44" height="44" fill="#8A4B00"/><rect x="3" y="3" width="38" height="38" fill="#C84C0C"/>
+      <rect x="7" y="7" width="14" height="12" fill="#C84C0C" opacity="0.85"/><rect x="23" y="7" width="14" height="12" fill="#E08050"/>
+      <rect x="7" y="21" width="14" height="12" fill="#E08050" opacity="0.7"/><rect x="23" y="21" width="14" height="12" fill="#C84C0C"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="516,204;516,204;516,188;516,204;516,204" keyTimes="0;0.508;0.52;0.534;1" dur="16s" repeatCount="indefinite"/>
+      <rect width="44" height="44" fill="#8A4B00"/>
+      <rect x="3" y="3" width="38" height="38" fill="#FFA044"/>
+      <rect x="7" y="7" width="30" height="30" fill="#F8B800"/>
+      <rect x="8" y="8" width="4" height="4" fill="#FFF3C4"/><rect x="32" y="8" width="4" height="4" fill="#FFF3C4"/>
+      <rect x="8" y="32" width="4" height="4" fill="#FFF3C4"/><rect x="32" y="32" width="4" height="4" fill="#FFF3C4"/>
+      <text x="22" y="32" text-anchor="middle" font-size="26" font-weight="900" fill="#FFFFFF" font-family="monospace">?</text>
+    </g>
+    <g transform="translate(560,204)">
+      <rect width="44" height="44" fill="#8A4B00"/><rect x="3" y="3" width="38" height="38" fill="#C84C0C"/>
+      <rect x="7" y="7" width="14" height="12" fill="#E08050"/><rect x="23" y="7" width="14" height="12" fill="#C84C0C" opacity="0.85"/>
+      <rect x="7" y="21" width="14" height="12" fill="#C84C0C"/><rect x="23" y="21" width="14" height="12" fill="#E08050" opacity="0.7"/>
     </g>
 
     <!-- ===== castle (drawn over Mario so he enters it) ===== -->
