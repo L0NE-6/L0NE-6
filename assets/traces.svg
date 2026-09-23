@@ -21,7 +21,7 @@
     <ellipse cx="0" cy="0" rx="16" ry="22" fill="none" stroke="#C99A00" stroke-width="4" opacity="0.7">
       <animate attributeName="rx" values="16;3;16" dur="3.4s" repeatCount="indefinite"/>
     </ellipse>
-    <text x="0" y="12" text-anchor="middle" font-size="26" font-weight="900" fill="#FFFFFF" stroke="#C99A00" stroke-width="1.5" paint-order="stroke">1863</text>
+    <text x="0" y="12" text-anchor="middle" font-size="26" font-weight="900" fill="#FFFFFF" stroke="#C99A00" stroke-width="1.5" paint-order="stroke">1864</text>
     <text x="0" y="62" text-anchor="middle" font-size="13" font-weight="700" fill="#FFF3C4">天前开始冒险</text>
   </g>
   <g transform="translate(348,168)">
@@ -41,7 +41,7 @@
     <ellipse cx="0" cy="0" rx="16" ry="22" fill="none" stroke="#C99A00" stroke-width="4" opacity="0.7">
       <animate attributeName="rx" values="16;3;16" dur="3.4s" repeatCount="indefinite"/>
     </ellipse>
-    <text x="0" y="12" text-anchor="middle" font-size="26" font-weight="900" fill="#FFFFFF" stroke="#C99A00" stroke-width="1.5" paint-order="stroke">133</text>
+    <text x="0" y="12" text-anchor="middle" font-size="26" font-weight="900" fill="#FFFFFF" stroke="#C99A00" stroke-width="1.5" paint-order="stroke">151</text>
     <text x="0" y="62" text-anchor="middle" font-size="13" font-weight="700" fill="#FFF3C4">颗星星</text>
   </g>
   <g transform="translate(754,168)">
