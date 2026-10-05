@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="156" viewBox="0 0 900 156" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="252" viewBox="0 0 900 252" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
   <defs>
     <linearGradient id="mp" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#5C94FC"/><stop offset="100%" stop-color="#8FC0FF"/>
     </linearGradient>
   </defs>
-  <rect x="2" y="2" width="896" height="152" rx="6" fill="url(#mp)" stroke="#2A5BD7" stroke-width="3"/>
+  <rect x="2" y="2" width="896" height="248" rx="6" fill="url(#mp)" stroke="#2A5BD7" stroke-width="3"/>
   <g transform="translate(28,26)">
     <rect x="0" y="0" width="34" height="34" fill="#8A4B00"/><rect x="3" y="3" width="28" height="28" fill="#F8B800"/>
     <text x="17" y="26" text-anchor="middle" font-size="22" font-weight="900" fill="#FFFFFF">?</text>
@@ -21,7 +21,31 @@
   </g>
   <text x="80" y="129" font-size="15" font-weight="700" fill="#FFFFFF">Python</text>
   <rect x="220" y="116" width="540" height="16" rx="3" fill="#3A2A1A" stroke="#8A4B00" stroke-width="1.5"/>
-  <rect x="222" y="118" width="540" height="12" rx="2" fill="#E52521"/>
-  <rect x="222" y="118" width="540" height="5" rx="2" fill="#FFFFFF" opacity="0.28"/>
-  <text x="782" y="129" font-size="13" font-weight="700" fill="#FFD93B">100.0%</text>
+  <rect x="222" y="118" width="528" height="12" rx="2" fill="#E52521"/>
+  <rect x="222" y="118" width="528" height="5" rx="2" fill="#FFFFFF" opacity="0.28"/>
+  <text x="782" y="129" font-size="13" font-weight="700" fill="#FFD93B">97.8%</text>
+  <g transform="translate(44,160)">
+    <rect x="4" y="0" width="14" height="4" fill="#F8B800"/>
+    <rect x="0" y="4" width="22" height="8" fill="#F8B800"/>
+    <rect x="4" y="12" width="14" height="5" fill="#FFF3C4"/>
+    <rect x="7" y="13.5" width="3" height="3" fill="#2A2A2A"/>
+    <rect x="12" y="13.5" width="3" height="3" fill="#2A2A2A"/>
+  </g>
+  <text x="80" y="177" font-size="15" font-weight="700" fill="#FFFFFF">PowerShell</text>
+  <rect x="220" y="164" width="540" height="16" rx="3" fill="#3A2A1A" stroke="#8A4B00" stroke-width="1.5"/>
+  <rect x="222" y="166" width="20" height="12" rx="2" fill="#F8B800"/>
+  <rect x="222" y="166" width="20" height="5" rx="2" fill="#FFFFFF" opacity="0.28"/>
+  <text x="782" y="177" font-size="13" font-weight="700" fill="#FFD93B">1.2%</text>
+  <g transform="translate(44,208)">
+    <rect x="4" y="0" width="14" height="4" fill="#00A800"/>
+    <rect x="0" y="4" width="22" height="8" fill="#00A800"/>
+    <rect x="4" y="12" width="14" height="5" fill="#FFF3C4"/>
+    <rect x="7" y="13.5" width="3" height="3" fill="#2A2A2A"/>
+    <rect x="12" y="13.5" width="3" height="3" fill="#2A2A2A"/>
+  </g>
+  <text x="80" y="225" font-size="15" font-weight="700" fill="#FFFFFF">Shell</text>
+  <rect x="220" y="212" width="540" height="16" rx="3" fill="#3A2A1A" stroke="#8A4B00" stroke-width="1.5"/>
+  <rect x="222" y="214" width="20" height="12" rx="2" fill="#00A800"/>
+  <rect x="222" y="214" width="20" height="5" rx="2" fill="#FFFFFF" opacity="0.28"/>
+  <text x="782" y="225" font-size="13" font-weight="700" fill="#FFD93B">1.0%</text>
 </svg>
