@@ -23,7 +23,7 @@
   <rect x="220" y="116" width="540" height="16" rx="3" fill="#3A2A1A" stroke="#8A4B00" stroke-width="1.5"/>
   <rect x="222" y="118" width="527" height="12" rx="2" fill="#E52521"/>
   <rect x="222" y="118" width="527" height="5" rx="2" fill="#FFFFFF" opacity="0.28"/>
-  <text x="782" y="129" font-size="13" font-weight="700" fill="#FFD93B">97.6%</text>
+  <text x="782" y="129" font-size="13" font-weight="700" fill="#FFD93B">97.7%</text>
   <g transform="translate(44,160)">
     <rect x="4" y="0" width="14" height="4" fill="#F8B800"/>
     <rect x="0" y="4" width="22" height="8" fill="#F8B800"/>
@@ -47,5 +47,5 @@
   <rect x="220" y="212" width="540" height="16" rx="3" fill="#3A2A1A" stroke="#8A4B00" stroke-width="1.5"/>
   <rect x="222" y="214" width="20" height="12" rx="2" fill="#00A800"/>
   <rect x="222" y="214" width="20" height="5" rx="2" fill="#FFFFFF" opacity="0.28"/>
-  <text x="782" y="225" font-size="13" font-weight="700" fill="#FFD93B">1.2%</text>
+  <text x="782" y="225" font-size="13" font-weight="700" fill="#FFD93B">1.1%</text>
 </svg>
