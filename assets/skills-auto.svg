@@ -35,7 +35,7 @@
   <rect x="220" y="164" width="540" height="16" rx="3" fill="#3A2A1A" stroke="#8A4B00" stroke-width="1.5"/>
   <rect x="222" y="166" width="20" height="12" rx="2" fill="#F8B800"/>
   <rect x="222" y="166" width="20" height="5" rx="2" fill="#FFFFFF" opacity="0.28"/>
-  <text x="782" y="177" font-size="13" font-weight="700" fill="#FFD93B">1.2%</text>
+  <text x="782" y="177" font-size="13" font-weight="700" fill="#FFD93B">1.1%</text>
   <g transform="translate(44,208)">
     <rect x="4" y="0" width="14" height="4" fill="#00A800"/>
     <rect x="0" y="4" width="22" height="8" fill="#00A800"/>
