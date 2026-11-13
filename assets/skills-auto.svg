@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="252" viewBox="0 0 900 252" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="396" viewBox="0 0 900 396" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
   <defs>
     <linearGradient id="mp" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#5C94FC"/><stop offset="100%" stop-color="#8FC0FF"/>
     </linearGradient>
   </defs>
-  <rect x="2" y="2" width="896" height="248" rx="6" fill="url(#mp)" stroke="#2A5BD7" stroke-width="3"/>
+  <rect x="2" y="2" width="896" height="392" rx="6" fill="url(#mp)" stroke="#2A5BD7" stroke-width="3"/>
   <g transform="translate(28,26)">
     <rect x="0" y="0" width="34" height="34" fill="#8A4B00"/><rect x="3" y="3" width="28" height="28" fill="#F8B800"/>
     <text x="17" y="26" text-anchor="middle" font-size="22" font-weight="900" fill="#FFFFFF">?</text>
@@ -21,9 +21,9 @@
   </g>
   <text x="80" y="129" font-size="15" font-weight="700" fill="#FFFFFF">Python</text>
   <rect x="220" y="116" width="540" height="16" rx="3" fill="#3A2A1A" stroke="#8A4B00" stroke-width="1.5"/>
-  <rect x="222" y="118" width="530" height="12" rx="2" fill="#E52521"/>
-  <rect x="222" y="118" width="530" height="5" rx="2" fill="#FFFFFF" opacity="0.28"/>
-  <text x="782" y="129" font-size="13" font-weight="700" fill="#FFD93B">98.2%</text>
+  <rect x="222" y="118" width="526" height="12" rx="2" fill="#E52521"/>
+  <rect x="222" y="118" width="526" height="5" rx="2" fill="#FFFFFF" opacity="0.28"/>
+  <text x="782" y="129" font-size="13" font-weight="700" fill="#FFD93B">97.4%</text>
   <g transform="translate(44,160)">
     <rect x="4" y="0" width="14" height="4" fill="#F8B800"/>
     <rect x="0" y="4" width="22" height="8" fill="#F8B800"/>
@@ -35,7 +35,7 @@
   <rect x="220" y="164" width="540" height="16" rx="3" fill="#3A2A1A" stroke="#8A4B00" stroke-width="1.5"/>
   <rect x="222" y="166" width="20" height="12" rx="2" fill="#F8B800"/>
   <rect x="222" y="166" width="20" height="5" rx="2" fill="#FFFFFF" opacity="0.28"/>
-  <text x="782" y="177" font-size="13" font-weight="700" fill="#FFD93B">1.0%</text>
+  <text x="782" y="177" font-size="13" font-weight="700" fill="#FFD93B">0.9%</text>
   <g transform="translate(44,208)">
     <rect x="4" y="0" width="14" height="4" fill="#00A800"/>
     <rect x="0" y="4" width="22" height="8" fill="#00A800"/>
@@ -47,5 +47,41 @@
   <rect x="220" y="212" width="540" height="16" rx="3" fill="#3A2A1A" stroke="#8A4B00" stroke-width="1.5"/>
   <rect x="222" y="214" width="20" height="12" rx="2" fill="#00A800"/>
   <rect x="222" y="214" width="20" height="5" rx="2" fill="#FFFFFF" opacity="0.28"/>
-  <text x="782" y="225" font-size="13" font-weight="700" fill="#FFD93B">0.9%</text>
+  <text x="782" y="225" font-size="13" font-weight="700" fill="#FFD93B">0.8%</text>
+  <g transform="translate(44,256)">
+    <rect x="4" y="0" width="14" height="4" fill="#2A5BD7"/>
+    <rect x="0" y="4" width="22" height="8" fill="#2A5BD7"/>
+    <rect x="4" y="12" width="14" height="5" fill="#FFF3C4"/>
+    <rect x="7" y="13.5" width="3" height="3" fill="#2A2A2A"/>
+    <rect x="12" y="13.5" width="3" height="3" fill="#2A2A2A"/>
+  </g>
+  <text x="80" y="273" font-size="15" font-weight="700" fill="#FFFFFF">HTML</text>
+  <rect x="220" y="260" width="540" height="16" rx="3" fill="#3A2A1A" stroke="#8A4B00" stroke-width="1.5"/>
+  <rect x="222" y="262" width="20" height="12" rx="2" fill="#2A5BD7"/>
+  <rect x="222" y="262" width="20" height="5" rx="2" fill="#FFFFFF" opacity="0.28"/>
+  <text x="782" y="273" font-size="13" font-weight="700" fill="#FFD93B">0.5%</text>
+  <g transform="translate(44,304)">
+    <rect x="4" y="0" width="14" height="4" fill="#FF7B00"/>
+    <rect x="0" y="4" width="22" height="8" fill="#FF7B00"/>
+    <rect x="4" y="12" width="14" height="5" fill="#FFF3C4"/>
+    <rect x="7" y="13.5" width="3" height="3" fill="#2A2A2A"/>
+    <rect x="12" y="13.5" width="3" height="3" fill="#2A2A2A"/>
+  </g>
+  <text x="80" y="321" font-size="15" font-weight="700" fill="#FFFFFF">Batchfile</text>
+  <rect x="220" y="308" width="540" height="16" rx="3" fill="#3A2A1A" stroke="#8A4B00" stroke-width="1.5"/>
+  <rect x="222" y="310" width="20" height="12" rx="2" fill="#FF7B00"/>
+  <rect x="222" y="310" width="20" height="5" rx="2" fill="#FFFFFF" opacity="0.28"/>
+  <text x="782" y="321" font-size="13" font-weight="700" fill="#FFD93B">0.1%</text>
+  <g transform="translate(44,352)">
+    <rect x="4" y="0" width="14" height="4" fill="#E52521"/>
+    <rect x="0" y="4" width="22" height="8" fill="#E52521"/>
+    <rect x="4" y="12" width="14" height="5" fill="#FFF3C4"/>
+    <rect x="7" y="13.5" width="3" height="3" fill="#2A2A2A"/>
+    <rect x="12" y="13.5" width="3" height="3" fill="#2A2A2A"/>
+  </g>
+  <text x="80" y="369" font-size="15" font-weight="700" fill="#FFFFFF">JavaScript</text>
+  <rect x="220" y="356" width="540" height="16" rx="3" fill="#3A2A1A" stroke="#8A4B00" stroke-width="1.5"/>
+  <rect x="222" y="358" width="20" height="12" rx="2" fill="#E52521"/>
+  <rect x="222" y="358" width="20" height="5" rx="2" fill="#FFFFFF" opacity="0.28"/>
+  <text x="782" y="369" font-size="13" font-weight="700" fill="#FFD93B">0.1%</text>
 </svg>
