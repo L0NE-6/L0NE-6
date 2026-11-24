@@ -127,7 +127,9 @@
 
 <br/>
 
-> 🚪 还有两个小关卡：[code-collection-share](https://github.com/L0NE-6/code-collection-share)（代码本收集与分享）、[Trae-AutoCheckin](https://github.com/L0NE-6/Trae-AutoCheckin)（每日自动签到）。
+> 🚪 其他小关卡：[code-collection-share](https://github.com/L0NE-6/code-collection-share)（代码本收集与分享）、[Trae-AutoCheckin](https://github.com/L0NE-6/Trae-AutoCheckin)（每日自动签到）、[FreeTokens-Daily](https://github.com/L0NE-6/FreeTokens-Daily)（免费额度清单与统一调度）。
+
+> 🆕 2026-11-24 新增独立 Daily 仓库：DuMate、TeleAgent、DeepAI Code、Codar、MonkeyCode、Kakou、Xingchi、Trustoken、WPS 灵犀、Croli、白嫖 AI、AgentRouter、Sub2API、NewAPI。全部从 [FreeTokens-Daily](https://github.com/L0NE-6/FreeTokens-Daily) 统一查看。
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/divider-aurora.svg" alt="divider" width="100%"/>
