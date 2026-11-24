@@ -129,7 +129,7 @@
 
 > 🚪 其他小关卡：[code-collection-share](https://github.com/L0NE-6/code-collection-share)（代码本收集与分享）、[Trae-AutoCheckin](https://github.com/L0NE-6/Trae-AutoCheckin)（每日自动签到）、[FreeTokens-Daily](https://github.com/L0NE-6/FreeTokens-Daily)（免费额度清单与统一调度）。
 
-> 🆕 2026-11-24 新增独立 Daily 仓库：DuMate、TeleAgent、DeepAI Code、Codar、MonkeyCode、Kakou、Xingchi、Trustoken、WPS 灵犀、Croli、白嫖 AI、AgentRouter、Sub2API、NewAPI。全部从 [FreeTokens-Daily](https://github.com/L0NE-6/FreeTokens-Daily) 统一查看。
+> 🆕 2026-11-24 新增独立 Daily 仓库：[DuMate](https://github.com/L0NE-6/DuMate-Daily)、[TeleAgent](https://github.com/L0NE-6/TeleAgent-Daily)、[DeepAI Code](https://github.com/L0NE-6/DeepAICode-Daily)、[Codar](https://github.com/L0NE-6/Codar-Daily)、[MonkeyCode](https://github.com/L0NE-6/MonkeyCode-Daily)、[Kakou](https://github.com/L0NE-6/Kakou-Daily)、[Xingchi](https://github.com/L0NE-6/Xingchi-Daily)、[Trustoken](https://github.com/L0NE-6/Trustoken-Daily)、[WPS 灵犀](https://github.com/L0NE-6/WPSLingxi-Daily)、[Croli](https://github.com/L0NE-6/Croli-Daily)、[白嫖 AI](https://github.com/L0NE-6/Baipiao-Daily)、[AgentRouter](https://github.com/L0NE-6/AgentRouter-Daily)、[Sub2API](https://github.com/L0NE-6/Sub2API-Daily)、[NewAPI](https://github.com/L0NE-6/NewAPI-Daily)。全部从 [FreeTokens-Daily](https://github.com/L0NE-6/FreeTokens-Daily) 统一查看。
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/divider-aurora.svg" alt="divider" width="100%"/>
