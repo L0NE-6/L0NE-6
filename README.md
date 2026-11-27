@@ -131,6 +131,42 @@
 
 > 🆕 2026-11-24 新增独立 Daily 仓库：[DuMate](https://github.com/L0NE-6/DuMate-Daily)、[TeleAgent](https://github.com/L0NE-6/TeleAgent-Daily)、[DeepAI Code](https://github.com/L0NE-6/DeepAICode-Daily)、[Codar](https://github.com/L0NE-6/Codar-Daily)、[MonkeyCode](https://github.com/L0NE-6/MonkeyCode-Daily)、[Kakou](https://github.com/L0NE-6/Kakou-Daily)、[Xingchi](https://github.com/L0NE-6/Xingchi-Daily)、[Trustoken](https://github.com/L0NE-6/Trustoken-Daily)、[WPS 灵犀](https://github.com/L0NE-6/WPSLingxi-Daily)、[Croli](https://github.com/L0NE-6/Croli-Daily)、[白嫖 AI](https://github.com/L0NE-6/Baipiao-Daily)、[AgentRouter](https://github.com/L0NE-6/AgentRouter-Daily)、[Sub2API](https://github.com/L0NE-6/Sub2API-Daily)、[NewAPI](https://github.com/L0NE-6/NewAPI-Daily)。全部从 [FreeTokens-Daily](https://github.com/L0NE-6/FreeTokens-Daily) 统一查看。
 
+<details>
+<summary><b>🗂️ 全部公开仓库索引 · 37 个 Daily / AutoCheckin + 8 个非 Daily</b></summary>
+
+#### Daily / AutoCheckin
+
+| 仓库 | 仓库 | 仓库 |
+| :--- | :--- | :--- |
+| [AgentRouter](https://github.com/L0NE-6/AgentRouter-Daily) | [AStudio](https://github.com/L0NE-6/AStudio-Daily) | [AtomCode](https://github.com/L0NE-6/AtomCode-Daily) |
+| [AutoClaw](https://github.com/L0NE-6/AutoClaw-Daily) | [Baipiao](https://github.com/L0NE-6/Baipiao-Daily) | [ChatGLM](https://github.com/L0NE-6/ChatGLM-Daily) |
+| [Codar](https://github.com/L0NE-6/Codar-Daily) | [CodeArts](https://github.com/L0NE-6/CodeArts-Daily) | [Croli](https://github.com/L0NE-6/Croli-Daily) |
+| [DeepAICode](https://github.com/L0NE-6/DeepAICode-Daily) | [DoubaoWork](https://github.com/L0NE-6/DoubaoWork-Daily) | [DuMate](https://github.com/L0NE-6/DuMate-Daily) |
+| [FreeTokens](https://github.com/L0NE-6/FreeTokens-Daily) | [Inkstone](https://github.com/L0NE-6/Inkstone-Daily) | [Kakou](https://github.com/L0NE-6/Kakou-Daily) |
+| [KukuAI](https://github.com/L0NE-6/KukuAI-Daily) | [LobsterAI](https://github.com/L0NE-6/LobsterAI-AutoCheckin) | [Loomy](https://github.com/L0NE-6/Loomy-Daily) |
+| [Meoo](https://github.com/L0NE-6/Meoo-Daily) | [MiniMax](https://github.com/L0NE-6/MiniMax-Daily) | [MobileClaw](https://github.com/L0NE-6/MobileClaw-Daily) |
+| [ModelScope](https://github.com/L0NE-6/ModelScope-Daily) | [MonkeyCode](https://github.com/L0NE-6/MonkeyCode-Daily) | [NewAPI](https://github.com/L0NE-6/NewAPI-Daily) |
+| [OfficeAce](https://github.com/L0NE-6/OfficeAce-Daily) | [Qoder](https://github.com/L0NE-6/Qoder-Daily) | [QuWork](https://github.com/L0NE-6/QuWork-Daily) |
+| [Raccoon](https://github.com/L0NE-6/Raccoon-Daily) | [Sub2API](https://github.com/L0NE-6/Sub2API-Daily) | [Tabbit](https://github.com/L0NE-6/Tabbit-Daily) |
+| [TeleAgent](https://github.com/L0NE-6/TeleAgent-Daily) | [Trae](https://github.com/L0NE-6/Trae-AutoCheckin) | [Trustoken](https://github.com/L0NE-6/Trustoken-Daily) |
+| [WorkBuddy](https://github.com/L0NE-6/WorkBuddy-Daily) | [WPSLingxi](https://github.com/L0NE-6/WPSLingxi-Daily) | [Xingchi](https://github.com/L0NE-6/Xingchi-Daily) |
+| [ZCode](https://github.com/L0NE-6/ZCode-Daily) |  |  |
+
+#### 其他公开仓库
+
+| 仓库 | 用途 |
+| :--- | :--- |
+| [code-collection-share](https://github.com/L0NE-6/code-collection-share) | 代码与脚本收集、反馈 |
+| [Magisk-DeviceSpoofer](https://github.com/L0NE-6/Magisk-DeviceSpoofer) | Android 设备伪装模块 |
+| [QSC-StopCharging](https://github.com/L0NE-6/QSC-StopCharging) | 手机充电控制模块 |
+| [magpie-community-plugins-panel](https://github.com/L0NE-6/magpie-community-plugins-panel) | Magpie 插件社区维护面板 |
+| [magpie-panel](https://github.com/L0NE-6/magpie-panel) | Magpie 核心维护镜像 |
+| [magpie-providers-hub-panel](https://github.com/L0NE-6/magpie-providers-hub-panel) | Providers Hub 维护镜像 |
+| [pindou-pattern-studio](https://github.com/L0NE-6/pindou-pattern-studio) | 拼豆图案与色号工具 |
+| [L0NE-6](https://github.com/L0NE-6/L0NE-6) | 本主页 |
+
+</details>
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/L0NE-6/L0NE-6/main/assets/divider-aurora.svg" alt="divider" width="100%"/>
 </div>
